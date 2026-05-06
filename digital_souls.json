@@ -1,0 +1,4402 @@
+[
+  {
+    "citizen_id": "DELTA-37-415",
+    "digital_soul_hash": "7e2fb791bc069f688c698455216a7b89",
+    "birth_date": "1972-09-19",
+    "age": 54,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 8,
+      "emotional_weight": 0.9698854085699956,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever during the autumn of my youth.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.574545748434863,
+      "fear": 0.5732116758309151,
+      "altruism": 0.47512868349390164,
+      "ambition": 0.7694532034428317,
+      "curiosity": 0.7805710707437612
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 52.463832299980815,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.6487033171397059,
+      "health_consciousness": 0.723065805258335
+    },
+    "emotional_vector": [
+      0.574545748434863,
+      0.5732116758309151,
+      0.47512868349390164,
+      0.7694532034428317,
+      0.7805710707437612
+    ],
+    "memory_influence": 0.892294575884396
+  },
+  {
+    "citizen_id": "ALPHA-43-148",
+    "digital_soul_hash": "0b3df0ab8aca7d95c5697eb6b72a4251",
+    "birth_date": "1966-02-21",
+    "age": 60,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 23,
+      "emotional_weight": 0.7553071117663912,
+      "narrative": "The day I won the spelling bee while my father watched from the back row one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6492260225799293,
+      "fear": 0.4437036634628633,
+      "altruism": 0.5517946329116498,
+      "ambition": 0.7608607299957456,
+      "curiosity": 0.6931422779218555
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 54.597259372686395,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.428099332653302,
+      "health_consciousness": 0.2890546284942045
+    },
+    "emotional_vector": [
+      0.6492260225799293,
+      0.4437036634628633,
+      0.5517946329116498,
+      0.7608607299957456,
+      0.6931422779218555
+    ],
+    "memory_influence": 0.5815864760601213
+  },
+  {
+    "citizen_id": "SIGMA-56-185",
+    "digital_soul_hash": "50059d16e3619ec5df1ebe2b44c8c40d",
+    "birth_date": "1987-07-12",
+    "age": 39,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 19,
+      "emotional_weight": 0.7897614495685131,
+      "narrative": "First time coding 'Hello World' and feeling infinite possibility on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5496036607579018,
+      "fear": 0.5744761950258062,
+      "altruism": 0.49715354864078126,
+      "ambition": 0.5063598442006988,
+      "curiosity": 0.9495954948458523
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 49.58866791390354,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.6902215828493382,
+      "health_consciousness": 0.47595276460891917
+    },
+    "emotional_vector": [
+      0.5496036607579018,
+      0.5744761950258062,
+      0.49715354864078126,
+      0.5063598442006988,
+      0.9495954948458523
+    ],
+    "memory_influence": 0.6397067741504957
+  },
+  {
+    "citizen_id": "ZETA-68-126",
+    "digital_soul_hash": "44eeb33ecb38713413db2af4fd368883",
+    "birth_date": "1984-08-03",
+    "age": 42,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 10,
+      "emotional_weight": 0.639210486896488,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are that winter changed everything.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6222141019742475,
+      "fear": 0.5638976641011479,
+      "altruism": 0.41852336254269573,
+      "ambition": 0.59747577841496,
+      "curiosity": 0.8359735463032931
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 52.74878319024774,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.5441647146613879,
+      "health_consciousness": 0.4684433808414905
+    },
+    "emotional_vector": [
+      0.6222141019742475,
+      0.5638976641011479,
+      0.41852336254269573,
+      0.59747577841496,
+      0.8359735463032931
+    ],
+    "memory_influence": 0.5752894382068392
+  },
+  {
+    "citizen_id": "ZETA-11-691",
+    "digital_soul_hash": "e3dbabe7f9f2e6cff3c144a5adf7a80b",
+    "birth_date": "1984-01-28",
+    "age": 42,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 18,
+      "emotional_weight": 0.7757350038465001,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.783012785487872,
+      "fear": 0.15359790239054244,
+      "altruism": 0.5561683532910313,
+      "ambition": 0.6535105236946449,
+      "curiosity": 0.42810805969610166
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 59.69371262418776,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.8534969689668226,
+      "health_consciousness": 0.4460621076709904
+    },
+    "emotional_vector": [
+      0.783012785487872,
+      0.15359790239054244,
+      0.5561683532910313,
+      0.6535105236946449,
+      0.42810805969610166
+    ],
+    "memory_influence": 0.6361027031541301
+  },
+  {
+    "citizen_id": "OMEGA-47-723",
+    "digital_soul_hash": "83f332a385f51ab8f1a680d8698aedb8",
+    "birth_date": "1971-07-23",
+    "age": 55,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 10,
+      "emotional_weight": 0.8981848572776724,
+      "narrative": "The day I won the spelling bee while my father watched from the back row during the autumn of my youth.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.857551031397467,
+      "fear": 0.4750268146569291,
+      "altruism": 0.3136099943637386,
+      "ambition": 0.8255776236362597,
+      "curiosity": 0.5671675425055531
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 56.04156154386337,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.3218520882504531,
+      "health_consciousness": 0.47909273336386304
+    },
+    "emotional_vector": [
+      0.857551031397467,
+      0.4750268146569291,
+      0.3136099943637386,
+      0.8255776236362597,
+      0.5671675425055531
+    ],
+    "memory_influence": 0.8083663715499052
+  },
+  {
+    "citizen_id": "DELTA-23-678",
+    "digital_soul_hash": "af53253d87f9bbde5aa1c4295d4ffb4d",
+    "birth_date": "2006-10-12",
+    "age": 20,
+    "gender": "Male",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 5,
+      "emotional_weight": 0.6911516028338742,
+      "narrative": "The day I won the spelling bee while my father watched from the back row in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6318784911220396,
+      "fear": 0.2830328832822898,
+      "altruism": 0.3406615527968617,
+      "ambition": 0.8090379516114061,
+      "curiosity": 0.47936609625986465
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 53.41830283228264,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.37494151062854175,
+      "health_consciousness": 0.578053981192595
+    },
+    "emotional_vector": [
+      0.6318784911220396,
+      0.2830328832822898,
+      0.3406615527968617,
+      0.8090379516114061,
+      0.47936609625986465
+    ],
+    "memory_influence": 0.6565940226921805
+  },
+  {
+    "citizen_id": "GAMMA-36-375",
+    "digital_soul_hash": "56ee9212bcafff6997f36f51a213526c",
+    "birth_date": "1996-02-01",
+    "age": 30,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 17,
+      "emotional_weight": 0.7170509242026994,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7610954856090093,
+      "fear": 0.226535836538542,
+      "altruism": 0.5290203172694042,
+      "ambition": 0.6760672863539243,
+      "curiosity": 0.7594356997185476
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 56.1320025517793,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.4256545429085632,
+      "health_consciousness": 0.3983192053705368
+    },
+    "emotional_vector": [
+      0.7610954856090093,
+      0.226535836538542,
+      0.5290203172694042,
+      0.6760672863539243,
+      0.7594356997185476
+    ],
+    "memory_influence": 0.5951522670882405
+  },
+  {
+    "citizen_id": "OMEGA-11-268",
+    "digital_soul_hash": "b7436286d15f9d24a845851c1f1ff2d4",
+    "birth_date": "1960-09-04",
+    "age": 66,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 9,
+      "emotional_weight": 0.6171380171484723,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.3768847547379057,
+      "fear": 0.2600781013007295,
+      "altruism": 0.5826668487248979,
+      "ambition": 0.69465190947426,
+      "curiosity": 0.722601658950059
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 58.759540475055346,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.7360197640601838,
+      "health_consciousness": 0.8987895099615839
+    },
+    "emotional_vector": [
+      0.3768847547379057,
+      0.2600781013007295,
+      0.5826668487248979,
+      0.69465190947426,
+      0.722601658950059
+    ],
+    "memory_influence": 0.5615955956051097
+  },
+  {
+    "citizen_id": "BETA-68-428",
+    "digital_soul_hash": "27f880529af991bd62db2af97da3f975",
+    "birth_date": "1944-08-05",
+    "age": 82,
+    "gender": "Female",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 24,
+      "emotional_weight": 0.6113337853696248,
+      "narrative": "The day I won the spelling bee while my father watched from the back row in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5975250240975136,
+      "fear": 0.14928211391823917,
+      "altruism": 0.37165158184389757,
+      "ambition": 0.9581982761272736,
+      "curiosity": 0.7509904243748844
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 45.09049973373606,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.5917200631559756,
+      "health_consciousness": 0.2376817016084881
+    },
+    "emotional_vector": [
+      0.5975250240975136,
+      0.14928211391823917,
+      0.37165158184389757,
+      0.9581982761272736,
+      0.7509904243748844
+    ],
+    "memory_influence": 0.46461367688091487
+  },
+  {
+    "citizen_id": "ZETA-87-771",
+    "digital_soul_hash": "6d758b863cf1b40e89b11a2383158aa9",
+    "birth_date": "2003-08-06",
+    "age": 23,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 19,
+      "emotional_weight": 0.8453564696864744,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7714168946348005,
+      "fear": 0.3342742871426603,
+      "altruism": 0.36047579666028934,
+      "ambition": 0.8984072548062494,
+      "curiosity": 0.7369014635467344
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 57.33889713552638,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.4271152630228115,
+      "health_consciousness": 0.5002281528617353
+    },
+    "emotional_vector": [
+      0.7714168946348005,
+      0.3342742871426603,
+      0.36047579666028934,
+      0.8984072548062494,
+      0.7369014635467344
+    ],
+    "memory_influence": 0.6847387404460443
+  },
+  {
+    "citizen_id": "OMEGA-91-174",
+    "digital_soul_hash": "88ddb1067c487e044ef9c6c7d73846a3",
+    "birth_date": "1967-02-05",
+    "age": 59,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 20,
+      "emotional_weight": 0.6138806939230207,
+      "narrative": "Protest march where I felt part of something larger than myself in the summer of '98.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6549245799954933,
+      "fear": 0.26919579383962,
+      "altruism": 1.0,
+      "ambition": 0.3901193906529112,
+      "curiosity": 0.6139495076827786
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 63.739533707201765,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.5009324331907392,
+      "health_consciousness": 0.44273614048612664
+    },
+    "emotional_vector": [
+      0.6549245799954933,
+      0.26919579383962,
+      1.0,
+      0.3901193906529112,
+      0.6139495076827786
+    ],
+    "memory_influence": 0.49110455513841655
+  },
+  {
+    "citizen_id": "ALPHA-96-726",
+    "digital_soul_hash": "13647d3766676a94cd732576e91226d5",
+    "birth_date": "1985-05-13",
+    "age": 41,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 6,
+      "emotional_weight": 0.9374898656131245,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5716499758537975,
+      "fear": 0.6917853098065967,
+      "altruism": 0.653234323581585,
+      "ambition": 0.6892826034983177,
+      "curiosity": 0.7932229189304552
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 56.1854940370399,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.5293578405368551,
+      "health_consciousness": 0.7302653110826787
+    },
+    "emotional_vector": [
+      0.5716499758537975,
+      0.6917853098065967,
+      0.653234323581585,
+      0.6892826034983177,
+      0.7932229189304552
+    ],
+    "memory_influence": 0.881240473676337
+  },
+  {
+    "citizen_id": "EPSILON-98-481",
+    "digital_soul_hash": "f955e24fb9d6c3b14382ed2c98561993",
+    "birth_date": "1963-11-03",
+    "age": 63,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 7,
+      "emotional_weight": 0.9691212732650052,
+      "narrative": "Business collapsing in year one, rebuilding from zero in the summer of '98.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5695856204047731,
+      "fear": 0.5449292254374788,
+      "altruism": 0.6609589215138775,
+      "ambition": 0.6447090855674886,
+      "curiosity": 0.762743382049724
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 50.434116368743965,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.8479412229448238,
+      "health_consciousness": 0.3418680091960225
+    },
+    "emotional_vector": [
+      0.5695856204047731,
+      0.5449292254374788,
+      0.6609589215138775,
+      0.6447090855674886,
+      0.762743382049724
+    ],
+    "memory_influence": 0.9012827841364548
+  },
+  {
+    "citizen_id": "ZETA-77-690",
+    "digital_soul_hash": "397de903aee3e8a0e3535a9b551b597e",
+    "birth_date": "1996-11-17",
+    "age": 30,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 11,
+      "emotional_weight": 0.9412655691724825,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8083899301300257,
+      "fear": 0.4408823682172705,
+      "altruism": 0.36362134941615665,
+      "ambition": 0.7879544569796382,
+      "curiosity": 0.6935756954350714
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 57.39789326228451,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.525296014903109,
+      "health_consciousness": 0.7850516278961097
+    },
+    "emotional_vector": [
+      0.8083899301300257,
+      0.4408823682172705,
+      0.36362134941615665,
+      0.7879544569796382,
+      0.6935756954350714
+    ],
+    "memory_influence": 0.8377263565635095
+  },
+  {
+    "citizen_id": "ZETA-18-565",
+    "digital_soul_hash": "c1e97c5abc4455ae216a85118d88498d",
+    "birth_date": "1969-04-04",
+    "age": 57,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 11,
+      "emotional_weight": 0.8728354431792884,
+      "narrative": "Losing the championship but gaining respect for sportsmanship on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6158817697468599,
+      "fear": 0.6081880421824575,
+      "altruism": 0.7475617551182419,
+      "ambition": 0.47397050126811074,
+      "curiosity": 0.5199169262917264
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 51.96103645272205,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.319101097393545,
+      "health_consciousness": 0.3619983154007481
+    },
+    "emotional_vector": [
+      0.6158817697468599,
+      0.6081880421824575,
+      0.7475617551182419,
+      0.47397050126811074,
+      0.5199169262917264
+    ],
+    "memory_influence": 0.7768235444295667
+  },
+  {
+    "citizen_id": "SIGMA-53-821",
+    "digital_soul_hash": "a3c00c8963a4837a445f66a5ece64db1",
+    "birth_date": "1983-04-28",
+    "age": 43,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 19,
+      "emotional_weight": 0.7752682860225037,
+      "narrative": "Church potluck where strangers became family over shared stories on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6810953997764084,
+      "fear": 0.25041409310836,
+      "altruism": 0.884457095082354,
+      "ambition": 0.6898772992915237,
+      "curiosity": 0.38910023123948023
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 59.19870811912691,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.44165848184422873,
+      "health_consciousness": 0.5539962464908954
+    },
+    "emotional_vector": [
+      0.6810953997764084,
+      0.25041409310836,
+      0.884457095082354,
+      0.6898772992915237,
+      0.38910023123948023
+    ],
+    "memory_influence": 0.6279673116782281
+  },
+  {
+    "citizen_id": "GAMMA-89-435",
+    "digital_soul_hash": "42ed5c6130098f2e101d9c451ebb9579",
+    "birth_date": "1961-07-12",
+    "age": 65,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 22,
+      "emotional_weight": 0.8984570662772957,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6066017355370052,
+      "fear": 0.6477671365858091,
+      "altruism": 0.7271099903653276,
+      "ambition": 0.5037946392590843,
+      "curiosity": 0.7612357421411861
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 54.71501079811805,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.818093229020382,
+      "health_consciousness": 0.578421748793202
+    },
+    "emotional_vector": [
+      0.6066017355370052,
+      0.6477671365858091,
+      0.7271099903653276,
+      0.5037946392590843,
+      0.7612357421411861
+    ],
+    "memory_influence": 0.7007965116962906
+  },
+  {
+    "citizen_id": "SIGMA-70-350",
+    "digital_soul_hash": "141db5c884e0a3d1c9ed4820f490c14d",
+    "birth_date": "1957-04-17",
+    "age": 69,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 19,
+      "emotional_weight": 0.8772897066043603,
+      "narrative": "Protest march where I felt part of something larger than myself one spring morning.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8301984282129945,
+      "fear": 0.3366273812982624,
+      "altruism": 0.7894803679343384,
+      "ambition": 0.34311164222990687,
+      "curiosity": 0.3133884588527118
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 64.80256442115807,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.34718490974352306,
+      "health_consciousness": 0.6237593558588734
+    },
+    "emotional_vector": [
+      0.8301984282129945,
+      0.3366273812982624,
+      0.7894803679343384,
+      0.34311164222990687,
+      0.3133884588527118
+    ],
+    "memory_influence": 0.7106046623495319
+  },
+  {
+    "citizen_id": "SIGMA-51-745",
+    "digital_soul_hash": "be6dd203e462cc33782de1db52c0d218",
+    "birth_date": "1969-11-24",
+    "age": 57,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 17,
+      "emotional_weight": 0.963366186255983,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility during the autumn of my youth.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.3158391579677995,
+      "fear": 0.4001300415043574,
+      "altruism": 0.6393462684242102,
+      "ambition": 0.6785228530068821,
+      "curiosity": 0.7558034917495561
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 49.61354824342173,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.4476094815240347,
+      "health_consciousness": 0.6471047371801726
+    },
+    "emotional_vector": [
+      0.3158391579677995,
+      0.4001300415043574,
+      0.6393462684242102,
+      0.6785228530068821,
+      0.7558034917495561
+    ],
+    "memory_influence": 0.7995939345924659
+  },
+  {
+    "citizen_id": "BETA-18-491",
+    "digital_soul_hash": "dbfa09479e8ad5d41d8b3b4fa2d4dca8",
+    "birth_date": "1977-10-10",
+    "age": 49,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 16,
+      "emotional_weight": 0.9353080043859116,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever that winter changed everything.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5764349470127362,
+      "fear": 0.5829314245276207,
+      "altruism": 0.22132879688047843,
+      "ambition": 0.6967966592354131,
+      "curiosity": 1.0
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 43.53254341767223,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.595411246232419,
+      "health_consciousness": 0.31226083494735507
+    },
+    "emotional_vector": [
+      0.5764349470127362,
+      0.5829314245276207,
+      0.22132879688047843,
+      0.6967966592354131,
+      1.0
+    ],
+    "memory_influence": 0.7856587236841657
+  },
+  {
+    "citizen_id": "EPSILON-97-815",
+    "digital_soul_hash": "41ddfaaa75de0bb221b2ca690aed31d1",
+    "birth_date": "1985-11-08",
+    "age": 41,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 15,
+      "emotional_weight": 0.9987886085424014,
+      "narrative": "Losing the championship but gaining respect for sportsmanship one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.47194426613288565,
+      "fear": 0.47021090236707347,
+      "altruism": 0.6037864414737295,
+      "ambition": 0.597177100261685,
+      "curiosity": 0.7989285254686505
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 52.98372642605539,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.8760334143276829,
+      "health_consciousness": 0.3658696320861158
+    },
+    "emotional_vector": [
+      0.47194426613288565,
+      0.47021090236707347,
+      0.6037864414737295,
+      0.597177100261685,
+      0.7989285254686505
+    ],
+    "memory_influence": 0.8489703172610411
+  },
+  {
+    "citizen_id": "GAMMA-42-606",
+    "digital_soul_hash": "8aba16503431a6404c5fb105ae169bf0",
+    "birth_date": "1987-10-11",
+    "age": 39,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 17,
+      "emotional_weight": 0.74955263106558,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5757346262891769,
+      "fear": 0.39537310681738774,
+      "altruism": 0.5117025466742124,
+      "ambition": 0.8793962352520488,
+      "curiosity": 0.6085981677990238
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 47.137488155557136,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.6824081455290298,
+      "health_consciousness": 0.32981716197736066
+    },
+    "emotional_vector": [
+      0.5757346262891769,
+      0.39537310681738774,
+      0.5117025466742124,
+      0.8793962352520488,
+      0.6085981677990238
+    ],
+    "memory_influence": 0.6221286837844314
+  },
+  {
+    "citizen_id": "BETA-10-535",
+    "digital_soul_hash": "2cd5c2e22daa0fca7dbfc877490e5bf3",
+    "birth_date": "1972-05-13",
+    "age": 54,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 20,
+      "emotional_weight": 0.6143789401993479,
+      "narrative": "Business collapsing in year one, rebuilding from zero one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.31626347781549025,
+      "fear": 0.6100552852581487,
+      "altruism": 0.6468569521310497,
+      "ambition": 0.6862338909559902,
+      "curiosity": 0.6484661332300273
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 50.457293072934874,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.8519678547612082,
+      "health_consciousness": 0.36194461564395497
+    },
+    "emotional_vector": [
+      0.31626347781549025,
+      0.6100552852581487,
+      0.6468569521310497,
+      0.6862338909559902,
+      0.6484661332300273
+    ],
+    "memory_influence": 0.4915031521594784
+  },
+  {
+    "citizen_id": "OMEGA-65-638",
+    "digital_soul_hash": "cccb048649458dcaaff37b553af3bcdb",
+    "birth_date": "1974-02-10",
+    "age": 52,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 9,
+      "emotional_weight": 0.8710590451186669,
+      "narrative": "The day I won the spelling bee while my father watched from the back row one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7470595994778544,
+      "fear": 0.2344519623439631,
+      "altruism": 0.4951504465442244,
+      "ambition": 0.6345725698998985,
+      "curiosity": 0.5867703686647037
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 58.61378658964131,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.46707540481193743,
+      "health_consciousness": 0.4830225267947232
+    },
+    "emotional_vector": [
+      0.7470595994778544,
+      0.2344519623439631,
+      0.4951504465442244,
+      0.6345725698998985,
+      0.5867703686647037
+    ],
+    "memory_influence": 0.7926637310579869
+  },
+  {
+    "citizen_id": "ZETA-46-542",
+    "digital_soul_hash": "427a700c963a77aa532f9b5bdbdd6939",
+    "birth_date": "1979-11-25",
+    "age": 47,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 16,
+      "emotional_weight": 0.6985460512257877,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6447113381897682,
+      "fear": 0.4601786333886736,
+      "altruism": 0.34849566150024736,
+      "ambition": 0.6918894311325328,
+      "curiosity": 0.9562140080780128
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 51.00201921990807,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.6847540882778488,
+      "health_consciousness": 0.5920238355739327
+    },
+    "emotional_vector": [
+      0.6447113381897682,
+      0.4601786333886736,
+      0.34849566150024736,
+      0.6918894311325328,
+      0.9562140080780128
+    ],
+    "memory_influence": 0.5867786830296616
+  },
+  {
+    "citizen_id": "SIGMA-55-778",
+    "digital_soul_hash": "9ade4ed77450b2a936a396cb38812b8d",
+    "birth_date": "1972-12-25",
+    "age": 54,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 16,
+      "emotional_weight": 0.7126635619570464,
+      "narrative": "Moving away before saying goodbye to my best friend at the station on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.20382139403494148,
+      "fear": 0.6958460161902897,
+      "altruism": 0.4253116502140031,
+      "ambition": 0.6730187370520363,
+      "curiosity": 0.2117481787625505
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 41.977096699638956,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.3444954890624745,
+      "health_consciousness": 0.3013996043820054
+    },
+    "emotional_vector": [
+      0.20382139403494148,
+      0.6958460161902897,
+      0.4253116502140031,
+      0.6730187370520363,
+      0.2117481787625505
+    ],
+    "memory_influence": 0.598637392043919
+  },
+  {
+    "citizen_id": "ALPHA-12-488",
+    "digital_soul_hash": "e58629ab4714ab61acc413db8bd12c3a",
+    "birth_date": "1974-02-18",
+    "age": 52,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 5,
+      "emotional_weight": 0.9896385839198382,
+      "narrative": "Losing the championship but gaining respect for sportsmanship in the summer of '98.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5032460491210258,
+      "fear": 0.4021923152873349,
+      "altruism": 0.7590085426871316,
+      "ambition": 0.6446718159384326,
+      "curiosity": 0.810247851301479
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 54.45461319370681,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.8702625651355265,
+      "health_consciousness": 0.6669709380652878
+    },
+    "emotional_vector": [
+      0.5032460491210258,
+      0.4021923152873349,
+      0.7590085426871316,
+      0.6446718159384326,
+      0.810247851301479
+    ],
+    "memory_influence": 0.9401566547238462
+  },
+  {
+    "citizen_id": "SIGMA-61-328",
+    "digital_soul_hash": "ce3d58db07f871a2c5ddc05191f6c4ca",
+    "birth_date": "1961-06-23",
+    "age": 65,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 8,
+      "emotional_weight": 0.8427721281638636,
+      "narrative": "Church potluck where strangers became family over shared stories on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8780102350730824,
+      "fear": 0.25763297846827815,
+      "altruism": 0.8457482766915287,
+      "ambition": 0.4714604581396171,
+      "curiosity": 0.47024265893342615
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 64.4530500560295,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.7303000836993103,
+      "health_consciousness": 0.6804414136129944
+    },
+    "emotional_vector": [
+      0.8780102350730824,
+      0.25763297846827815,
+      0.8457482766915287,
+      0.4714604581396171,
+      0.47024265893342615
+    ],
+    "memory_influence": 0.7753503579107546
+  },
+  {
+    "citizen_id": "EPSILON-61-850",
+    "digital_soul_hash": "0b5dfb917dad35a83457fb2c0091e3b0",
+    "birth_date": "1978-06-12",
+    "age": 48,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 24,
+      "emotional_weight": 0.6856383513267278,
+      "narrative": "Protest march where I felt part of something larger than myself one spring morning.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.650555943833839,
+      "fear": 0.43048806919017574,
+      "altruism": 0.7998989391284662,
+      "ambition": 0.5510374192572165,
+      "curiosity": 0.6637870116166626
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 57.45597991387217,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.5283480194193768,
+      "health_consciousness": 0.5630917966845598
+    },
+    "emotional_vector": [
+      0.650555943833839,
+      0.43048806919017574,
+      0.7998989391284662,
+      0.5510374192572165,
+      0.6637870116166626
+    ],
+    "memory_influence": 0.5210851470083131
+  },
+  {
+    "citizen_id": "SIGMA-70-194",
+    "digital_soul_hash": "818e2769f4547e40b5c843bdede68496",
+    "birth_date": "2009-06-01",
+    "age": 17,
+    "gender": "Male",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 14,
+      "emotional_weight": 0.6048080214456278,
+      "narrative": "Business collapsing in year one, rebuilding from zero that winter changed everything.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.4190520542525552,
+      "fear": 0.6465038482102733,
+      "altruism": 0.4454965396173889,
+      "ambition": 0.7573867607056821,
+      "curiosity": 0.7989608656783934
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 46.88045761945143,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.36234232866832944,
+      "health_consciousness": 0.5211312293426327
+    },
+    "emotional_vector": [
+      0.4190520542525552,
+      0.6465038482102733,
+      0.4454965396173889,
+      0.7573867607056821,
+      0.7989608656783934
+    ],
+    "memory_influence": 0.5201348984432399
+  },
+  {
+    "citizen_id": "ZETA-30-425",
+    "digital_soul_hash": "ff61eb211dbc3e76dcb88743c981c477",
+    "birth_date": "1978-02-13",
+    "age": 48,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 23,
+      "emotional_weight": 0.7196216980303514,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up that winter changed everything.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6300241202033031,
+      "fear": 0.14378016495096352,
+      "altruism": 0.6119879131802279,
+      "ambition": 0.9846154508296587,
+      "curiosity": 0.6625798534469948
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 56.43911709531109,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.314184890524167,
+      "health_consciousness": 0.37725439956944046
+    },
+    "emotional_vector": [
+      0.6300241202033031,
+      0.14378016495096352,
+      0.6119879131802279,
+      0.9846154508296587,
+      0.6625798534469948
+    ],
+    "memory_influence": 0.5541087074833706
+  },
+  {
+    "citizen_id": "ALPHA-15-347",
+    "digital_soul_hash": "bba3c121cee65648100cb84b12e814f0",
+    "birth_date": "2010-04-01",
+    "age": 16,
+    "gender": "Male",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 13,
+      "emotional_weight": 0.9770646391954161,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6008222327782894,
+      "fear": 0.5269655975605223,
+      "altruism": 0.47050409446214014,
+      "ambition": 0.7762048272050996,
+      "curiosity": 0.8143341780515866
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 47.853348050618195,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.88207157278822,
+      "health_consciousness": 0.3852894652080205
+    },
+    "emotional_vector": [
+      0.6008222327782894,
+      0.5269655975605223,
+      0.47050409446214014,
+      0.7762048272050996,
+      0.8143341780515866
+    ],
+    "memory_influence": 0.850046236100012
+  },
+  {
+    "citizen_id": "ALPHA-81-298",
+    "digital_soul_hash": "d348d72875a7006b1313513bd5fd8fa7",
+    "birth_date": "1979-08-16",
+    "age": 47,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 10,
+      "emotional_weight": 0.6093235439865252,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5871988828013491,
+      "fear": 0.2970304370152668,
+      "altruism": 0.401474916588189,
+      "ambition": 0.7882205774511775,
+      "curiosity": 1.0
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 51.124728433731754,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.5457734882816583,
+      "health_consciousness": 0.6239084685921288
+    },
+    "emotional_vector": [
+      0.5871988828013491,
+      0.2970304370152668,
+      0.401474916588189,
+      0.7882205774511775,
+      1.0
+    ],
+    "memory_influence": 0.5483911895878727
+  },
+  {
+    "citizen_id": "ZETA-24-144",
+    "digital_soul_hash": "a93984a9ee82a195c7e06db3aec5318d",
+    "birth_date": "1989-01-04",
+    "age": 37,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 11,
+      "emotional_weight": 0.8117333515404253,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5866042270147014,
+      "fear": 0.31665113895024166,
+      "altruism": 0.7028803122393972,
+      "ambition": 0.5573756614274493,
+      "curiosity": 0.5712492248171329
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 62.84114750674205,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.6680834244345921,
+      "health_consciousness": 0.7710572188571378
+    },
+    "emotional_vector": [
+      0.5866042270147014,
+      0.31665113895024166,
+      0.7028803122393972,
+      0.5573756614274493,
+      0.5712492248171329
+    ],
+    "memory_influence": 0.7224426828709785
+  },
+  {
+    "citizen_id": "ALPHA-66-951",
+    "digital_soul_hash": "e180240c6cd4492f9e26a12b4e1c99ca",
+    "birth_date": "1989-06-02",
+    "age": 37,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 8,
+      "emotional_weight": 0.6373560764900318,
+      "narrative": "Moving away before saying goodbye to my best friend at the station on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.34874809762522985,
+      "fear": 0.6581455211526598,
+      "altruism": 0.4611343377472544,
+      "ambition": 0.4910795840962584,
+      "curiosity": 0.5918766614381146
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 49.433136468249195,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.5345047709944298,
+      "health_consciousness": 0.4360772966357182
+    },
+    "emotional_vector": [
+      0.34874809762522985,
+      0.6581455211526598,
+      0.4611343377472544,
+      0.4910795840962584,
+      0.5918766614381146
+    ],
+    "memory_influence": 0.5863675903708293
+  },
+  {
+    "citizen_id": "ZETA-26-739",
+    "digital_soul_hash": "a20bc4bcfb4d35e51a941e2003184adb",
+    "birth_date": "1972-01-03",
+    "age": 54,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 24,
+      "emotional_weight": 0.745145996049255,
+      "narrative": "Protest march where I felt part of something larger than myself that winter changed everything.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7802562201905705,
+      "fear": 0.34496722065593594,
+      "altruism": 0.9298343602192007,
+      "ambition": 0.5826886207383077,
+      "curiosity": 0.4234883743902366
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 62.631482945644215,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.8242071834901803,
+      "health_consciousness": 0.271922875902987
+    },
+    "emotional_vector": [
+      0.7802562201905705,
+      0.34496722065593594,
+      0.9298343602192007,
+      0.5826886207383077,
+      0.4234883743902366
+    ],
+    "memory_influence": 0.5663109569974338
+  },
+  {
+    "citizen_id": "ZETA-11-370",
+    "digital_soul_hash": "d250b2094469d3afee0c1457d2e050f2",
+    "birth_date": "1994-09-04",
+    "age": 32,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 20,
+      "emotional_weight": 0.7361213385639563,
+      "narrative": "Losing the championship but gaining respect for sportsmanship on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5746457828679781,
+      "fear": 0.5688231496547271,
+      "altruism": 0.40516803437850746,
+      "ambition": 0.6046625847523288,
+      "curiosity": 0.8246212763525118
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 51.36096198204167,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.654629107839087,
+      "health_consciousness": 0.3193683872669665
+    },
+    "emotional_vector": [
+      0.5746457828679781,
+      0.5688231496547271,
+      0.40516803437850746,
+      0.6046625847523288,
+      0.8246212763525118
+    ],
+    "memory_influence": 0.588897070851165
+  },
+  {
+    "citizen_id": "ALPHA-98-735",
+    "digital_soul_hash": "7b1a7838d2d3fd964ae7ce0454cd1ebb",
+    "birth_date": "2006-09-02",
+    "age": 20,
+    "gender": "Male",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 5,
+      "emotional_weight": 0.731740660632937,
+      "narrative": "Protest march where I felt part of something larger than myself during the autumn of my youth.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9822835179601714,
+      "fear": 0.31566526966298036,
+      "altruism": 0.9572523764879113,
+      "ambition": 0.3534175448903606,
+      "curiosity": 0.5531708099626439
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 69.94549781729154,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.4967722900612688,
+      "health_consciousness": 0.7960694540512951
+    },
+    "emotional_vector": [
+      0.9822835179601714,
+      0.31566526966298036,
+      0.9572523764879113,
+      0.3534175448903606,
+      0.5531708099626439
+    ],
+    "memory_influence": 0.6951536276012901
+  },
+  {
+    "citizen_id": "EPSILON-52-643",
+    "digital_soul_hash": "4fc2333263611e68f2004961beb3147e",
+    "birth_date": "1998-12-12",
+    "age": 28,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 25,
+      "emotional_weight": 0.8010065885889718,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5129886569250036,
+      "fear": 0.2736500013750669,
+      "altruism": 0.3875750493985682,
+      "ambition": 0.6862147280589158,
+      "curiosity": 0.6548331749611587
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 57.62288978113351,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.7827830972874985,
+      "health_consciousness": 0.8366327267769944
+    },
+    "emotional_vector": [
+      0.5129886569250036,
+      0.2736500013750669,
+      0.3875750493985682,
+      0.6862147280589158,
+      0.6548331749611587
+    ],
+    "memory_influence": 0.6007549414417288
+  },
+  {
+    "citizen_id": "GAMMA-74-454",
+    "digital_soul_hash": "3f7227625ee3a5881a20583adf46250e",
+    "birth_date": "1973-09-03",
+    "age": 53,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 15,
+      "emotional_weight": 0.7410261364091792,
+      "narrative": "Moving away before saying goodbye to my best friend at the station one spring morning.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.44895567642697437,
+      "fear": 0.826082280366498,
+      "altruism": 0.6434046403121254,
+      "ambition": 0.3741193317556814,
+      "curiosity": 0.4177765901708859
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 47.32417798039532,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.5787602767213131,
+      "health_consciousness": 0.312932989811597
+    },
+    "emotional_vector": [
+      0.44895567642697437,
+      0.826082280366498,
+      0.6434046403121254,
+      0.3741193317556814,
+      0.4177765901708859
+    ],
+    "memory_influence": 0.6298722159478023
+  },
+  {
+    "citizen_id": "GAMMA-25-480",
+    "digital_soul_hash": "3b7b9772e08fd553a3847664bfef18e5",
+    "birth_date": "1961-03-07",
+    "age": 65,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 10,
+      "emotional_weight": 0.9023509512514976,
+      "narrative": "The day I won the spelling bee while my father watched from the back row on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6511755784300631,
+      "fear": 0.38398674184925863,
+      "altruism": 0.48493686342768855,
+      "ambition": 0.9128821018091378,
+      "curiosity": 0.7130779648005099
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 60.64828311750484,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.49588846643055506,
+      "health_consciousness": 0.7567145731658829
+    },
+    "emotional_vector": [
+      0.6511755784300631,
+      0.38398674184925863,
+      0.48493686342768855,
+      0.9128821018091378,
+      0.7130779648005099
+    ],
+    "memory_influence": 0.8121158561263478
+  },
+  {
+    "citizen_id": "OMEGA-30-266",
+    "digital_soul_hash": "cb589c32962f427389e877fce3b56550",
+    "birth_date": "2006-12-06",
+    "age": 20,
+    "gender": "Female",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 12,
+      "emotional_weight": 0.6683284459467896,
+      "narrative": "The day I won the spelling bee while my father watched from the back row that winter changed everything.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5291088259445502,
+      "fear": 0.4759311693675277,
+      "altruism": 0.3280305165575169,
+      "ambition": 0.6768236124271663,
+      "curiosity": 0.6252809140441317
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 55.2589255917395,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.756853976265494,
+      "health_consciousness": 0.8504194216323828
+    },
+    "emotional_vector": [
+      0.5291088259445502,
+      0.4759311693675277,
+      0.3280305165575169,
+      0.6768236124271663,
+      0.6252809140441317
+    ],
+    "memory_influence": 0.5881290324331749
+  },
+  {
+    "citizen_id": "ZETA-38-195",
+    "digital_soul_hash": "f2214a46a33f4a1b69c5b7b5f19b254a",
+    "birth_date": "1957-09-02",
+    "age": 69,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 9,
+      "emotional_weight": 0.6349665276382949,
+      "narrative": "Moving away before saying goodbye to my best friend at the station during the autumn of my youth.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.3452739109732613,
+      "fear": 0.5508987611162047,
+      "altruism": 0.5104472985746542,
+      "ambition": 0.5061408440021886,
+      "curiosity": 0.5231549385816854
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 48.53741363988696,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.8407229707145252,
+      "health_consciousness": 0.33168172945346164
+    },
+    "emotional_vector": [
+      0.3452739109732613,
+      0.5508987611162047,
+      0.5104472985746542,
+      0.5061408440021886,
+      0.5231549385816854
+    ],
+    "memory_influence": 0.5778195401508484
+  },
+  {
+    "citizen_id": "ALPHA-65-190",
+    "digital_soul_hash": "2bc3ec2e7f948954f1d24ad7912ad723",
+    "birth_date": "1994-12-10",
+    "age": 32,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 20,
+      "emotional_weight": 0.9732789264800663,
+      "narrative": "Losing the championship but gaining respect for sportsmanship on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.37562437472601096,
+      "fear": 0.5287787558123307,
+      "altruism": 0.4328172803673918,
+      "ambition": 0.4403079016478926,
+      "curiosity": 0.555663588442629
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 44.59210822679808,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.30918546430729177,
+      "health_consciousness": 0.4391574351177989
+    },
+    "emotional_vector": [
+      0.37562437472601096,
+      0.5287787558123307,
+      0.4328172803673918,
+      0.4403079016478926,
+      0.555663588442629
+    ],
+    "memory_influence": 0.7786231411840531
+  },
+  {
+    "citizen_id": "ZETA-64-273",
+    "digital_soul_hash": "0d1674e069fb3c0871444814f87d0b07",
+    "birth_date": "1947-01-07",
+    "age": 79,
+    "gender": "Male",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 21,
+      "emotional_weight": 0.8587682254138229,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up during the autumn of my youth.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5112636796617271,
+      "fear": 0.19487337551170514,
+      "altruism": 0.4148842890157988,
+      "ambition": 0.8438636219449176,
+      "curiosity": 0.5067927674743201
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 49.673912161871115,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.8815970955266192,
+      "health_consciousness": 0.281691615559973
+    },
+    "emotional_vector": [
+      0.5112636796617271,
+      0.19487337551170514,
+      0.4148842890157988,
+      0.8438636219449176,
+      0.5067927674743201
+    ],
+    "memory_influence": 0.6784268980769201
+  },
+  {
+    "citizen_id": "DELTA-32-866",
+    "digital_soul_hash": "cc6d6e63ca24caca6daf99891263bbda",
+    "birth_date": "1989-08-10",
+    "age": 37,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 12,
+      "emotional_weight": 0.7904480807704889,
+      "narrative": "Protest march where I felt part of something larger than myself one spring morning.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9980652221442563,
+      "fear": 0.4747796610403307,
+      "altruism": 1.0,
+      "ambition": 0.3568747618241723,
+      "curiosity": 0.3635772072225282
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 64.52676651453173,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.8840673516906838,
+      "health_consciousness": 0.3710308047764404
+    },
+    "emotional_vector": [
+      0.9980652221442563,
+      0.4747796610403307,
+      1.0,
+      0.3568747618241723,
+      0.3635772072225282
+    ],
+    "memory_influence": 0.6955943110780303
+  },
+  {
+    "citizen_id": "BETA-12-607",
+    "digital_soul_hash": "bc98010a15cb5fd69c3f22eb1f3310de",
+    "birth_date": "1975-03-28",
+    "age": 51,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 13,
+      "emotional_weight": 0.9673739997576765,
+      "narrative": "Church potluck where strangers became family over shared stories on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9527381987005592,
+      "fear": 0.48338155257810195,
+      "altruism": 0.882412261331414,
+      "ambition": 0.3348673801037264,
+      "curiosity": 0.33881158808905687
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 70.7845054796307,
+    "insurance_risk_tier": "Low-Risk",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.8285000673546421,
+      "health_consciousness": 0.6329038390432207
+    },
+    "emotional_vector": [
+      0.9527381987005592,
+      0.48338155257810195,
+      0.882412261331414,
+      0.3348673801037264,
+      0.33881158808905687
+    ],
+    "memory_influence": 0.8416153797891786
+  },
+  {
+    "citizen_id": "EPSILON-87-512",
+    "digital_soul_hash": "a10159e29cca5dc0e260f199f5e02a7f",
+    "birth_date": "1959-12-17",
+    "age": 67,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 21,
+      "emotional_weight": 0.7611346405678108,
+      "narrative": "Church potluck where strangers became family over shared stories during the autumn of my youth.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6880632393663433,
+      "fear": 0.27535014770492316,
+      "altruism": 1.0,
+      "ambition": 0.4512877755097259,
+      "curiosity": 0.43488515462420474
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 65.23388644335859,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.47075646348996414,
+      "health_consciousness": 0.8981747770687816
+    },
+    "emotional_vector": [
+      0.6880632393663433,
+      0.27535014770492316,
+      1.0,
+      0.4512877755097259,
+      0.43488515462420474
+    ],
+    "memory_influence": 0.6012963660485705
+  },
+  {
+    "citizen_id": "GAMMA-71-352",
+    "digital_soul_hash": "48705af4b9bf29ed32d31e20031bde89",
+    "birth_date": "1946-02-17",
+    "age": 80,
+    "gender": "Male",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 18,
+      "emotional_weight": 0.8420010150645997,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5309363058779283,
+      "fear": 0.11626152949189919,
+      "altruism": 0.3843043965639496,
+      "ambition": 0.6819397788366699,
+      "curiosity": 0.7688302750919838
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 44.344315339163664,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.6956816296837901,
+      "health_consciousness": 0.33073488487639036
+    },
+    "emotional_vector": [
+      0.5309363058779283,
+      0.11626152949189919,
+      0.3843043965639496,
+      0.6819397788366699,
+      0.7688302750919838
+    ],
+    "memory_influence": 0.6904408323529718
+  },
+  {
+    "citizen_id": "GAMMA-54-805",
+    "digital_soul_hash": "799f58c0eb0ca117a1f15fc23c1a9457",
+    "birth_date": "1984-11-14",
+    "age": 42,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 9,
+      "emotional_weight": 0.9181044138774471,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.4299224343147172,
+      "fear": 0.39692094902236963,
+      "altruism": 0.46844720241653987,
+      "ambition": 0.6756310958195108,
+      "curiosity": 0.6897164293935122
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 50.47973370322453,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.7606987338072743,
+      "health_consciousness": 0.7903051320454726
+    },
+    "emotional_vector": [
+      0.4299224343147172,
+      0.39692094902236963,
+      0.46844720241653987,
+      0.6756310958195108,
+      0.6897164293935122
+    ],
+    "memory_influence": 0.8354750166284769
+  },
+  {
+    "citizen_id": "OMEGA-15-707",
+    "digital_soul_hash": "dc02ba377c5f4eb773f49cab9401815c",
+    "birth_date": "1957-08-02",
+    "age": 69,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 12,
+      "emotional_weight": 0.6133224955284993,
+      "narrative": "Moving away before saying goodbye to my best friend at the station on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.3202854712597052,
+      "fear": 0.8853878717682764,
+      "altruism": 0.6879637953104993,
+      "ambition": 0.6108766362398594,
+      "curiosity": 0.3084478238835795
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 53.5868735965091,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.7803343858652736,
+      "health_consciousness": 0.8574471494438338
+    },
+    "emotional_vector": [
+      0.3202854712597052,
+      0.8853878717682764,
+      0.6879637953104993,
+      0.6108766362398594,
+      0.3084478238835795
+    ],
+    "memory_influence": 0.5397237960650794
+  },
+  {
+    "citizen_id": "SIGMA-26-567",
+    "digital_soul_hash": "3dc69586d90c11412d4587bbb059f62a",
+    "birth_date": "1962-07-12",
+    "age": 64,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 11,
+      "emotional_weight": 0.6293463173509142,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7175389202517091,
+      "fear": 0.30118217198908415,
+      "altruism": 0.39827627957507616,
+      "ambition": 0.7674041534467949,
+      "curiosity": 0.534455986007487
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 58.50183455991891,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.34095218729812976,
+      "health_consciousness": 0.7451274640839056
+    },
+    "emotional_vector": [
+      0.7175389202517091,
+      0.30118217198908415,
+      0.39827627957507616,
+      0.7674041534467949,
+      0.534455986007487
+    ],
+    "memory_influence": 0.5601182224423136
+  },
+  {
+    "citizen_id": "ALPHA-13-144",
+    "digital_soul_hash": "7f1cd96127cff9ed954c04493d86170e",
+    "birth_date": "2010-07-15",
+    "age": 16,
+    "gender": "Male",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 14,
+      "emotional_weight": 0.6572351637017189,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever that winter changed everything.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6747561986003614,
+      "fear": 0.2513515044741015,
+      "altruism": 0.22504673575763479,
+      "ambition": 0.8811208172698288,
+      "curiosity": 0.718839910258694
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 44.19059115082718,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.7064394595099733,
+      "health_consciousness": 0.28798440949702847
+    },
+    "emotional_vector": [
+      0.6747561986003614,
+      0.2513515044741015,
+      0.22504673575763479,
+      0.8811208172698288,
+      0.718839910258694
+    ],
+    "memory_influence": 0.5652222407834782
+  },
+  {
+    "citizen_id": "DELTA-23-514",
+    "digital_soul_hash": "579c6080ed840149e7fe5db9d3267181",
+    "birth_date": "1941-11-02",
+    "age": 85,
+    "gender": "Male",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 18,
+      "emotional_weight": 0.6134462224822894,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.536068086598267,
+      "fear": 0.3620875431691597,
+      "altruism": 0.24845595855272518,
+      "ambition": 0.8333360285578761,
+      "curiosity": 0.8122800969394416
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 55.59679496690383,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.5070056186373537,
+      "health_consciousness": 0.809906257109841
+    },
+    "emotional_vector": [
+      0.536068086598267,
+      0.3620875431691597,
+      0.24845595855272518,
+      0.8333360285578761,
+      0.8122800969394416
+    ],
+    "memory_influence": 0.5030259024354774
+  },
+  {
+    "citizen_id": "DELTA-93-291",
+    "digital_soul_hash": "5c611afc636f221b844c934346c929df",
+    "birth_date": "1959-08-23",
+    "age": 67,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 5,
+      "emotional_weight": 0.6046205293274135,
+      "narrative": "Protest march where I felt part of something larger than myself on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9967688463834605,
+      "fear": 0.37005571928693987,
+      "altruism": 0.7486929994005553,
+      "ambition": 0.578460199565856,
+      "curiosity": 0.49705676865891635
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 58.252264694847376,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.42054239927191617,
+      "health_consciousness": 0.20576618507798888
+    },
+    "emotional_vector": [
+      0.9967688463834605,
+      0.37005571928693987,
+      0.7486929994005553,
+      0.578460199565856,
+      0.49705676865891635
+    ],
+    "memory_influence": 0.5743895028610428
+  },
+  {
+    "citizen_id": "DELTA-40-762",
+    "digital_soul_hash": "6f33f62e539d3e764e1b75a733d63560",
+    "birth_date": "1971-08-18",
+    "age": 55,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 8,
+      "emotional_weight": 0.6496325602558518,
+      "narrative": "Protest march where I felt part of something larger than myself on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6751581471211384,
+      "fear": 0.2294382334186774,
+      "altruism": 1.0,
+      "ambition": 0.48596241408909735,
+      "curiosity": 0.6063306608218981
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 62.017506896002175,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.5322440994861546,
+      "health_consciousness": 0.30095626357196065
+    },
+    "emotional_vector": [
+      0.6751581471211384,
+      0.2294382334186774,
+      1.0,
+      0.48596241408909735,
+      0.6063306608218981
+    ],
+    "memory_influence": 0.5976619554353837
+  },
+  {
+    "citizen_id": "GAMMA-97-754",
+    "digital_soul_hash": "fe1a13b4b8e65a9db432ab3d4c79ee3a",
+    "birth_date": "2007-10-21",
+    "age": 19,
+    "gender": "Female",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 15,
+      "emotional_weight": 0.7422146706788862,
+      "narrative": "The family dog not waiting at the door when I came home from school one spring morning.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5461963361239464,
+      "fear": 0.7751541436630986,
+      "altruism": 0.7326638419722757,
+      "ambition": 0.6141995752946098,
+      "curiosity": 0.4850532604888132
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 59.30135990888516,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.7937253939682485,
+      "health_consciousness": 0.6924983704548067
+    },
+    "emotional_vector": [
+      0.5461963361239464,
+      0.7751541436630986,
+      0.7326638419722757,
+      0.6141995752946098,
+      0.4850532604888132
+    ],
+    "memory_influence": 0.6308824700770533
+  },
+  {
+    "citizen_id": "GAMMA-93-578",
+    "digital_soul_hash": "9b4ffa5dcd6a11d33179556c0b99c38e",
+    "birth_date": "1953-05-26",
+    "age": 73,
+    "gender": "Female",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 15,
+      "emotional_weight": 0.906458664834245,
+      "narrative": "Entire neighborhood coming together after the storm damaged homes during the autumn of my youth.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7024070040288515,
+      "fear": 0.24378133822441875,
+      "altruism": 0.7597815678107364,
+      "ambition": 0.5726385925312854,
+      "curiosity": 0.6533822287535168
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 60.984694504638576,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.8744949300257723,
+      "health_consciousness": 0.4359887271267004
+    },
+    "emotional_vector": [
+      0.7024070040288515,
+      0.24378133822441875,
+      0.7597815678107364,
+      0.5726385925312854,
+      0.6533822287535168
+    ],
+    "memory_influence": 0.7704898651091082
+  },
+  {
+    "citizen_id": "SIGMA-65-176",
+    "digital_soul_hash": "404748280658bdf1ccb61197d0d085d3",
+    "birth_date": "2001-04-13",
+    "age": 25,
+    "gender": "Female",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 10,
+      "emotional_weight": 0.7111314022116623,
+      "narrative": "Grandmother's garden empty after she passed, roses still blooming in the summer of '98.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.4994569242524907,
+      "fear": 0.5928223440117256,
+      "altruism": 0.6839338852385931,
+      "ambition": 0.5515081548426962,
+      "curiosity": 0.32764891329055
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 53.9166563766231,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.5961681220369612,
+      "health_consciousness": 0.7112339741996263
+    },
+    "emotional_vector": [
+      0.4994569242524907,
+      0.5928223440117256,
+      0.6839338852385931,
+      0.5515081548426962,
+      0.32764891329055
+    ],
+    "memory_influence": 0.640018261990496
+  },
+  {
+    "citizen_id": "OMEGA-17-627",
+    "digital_soul_hash": "84c5f224e7a6c173fe6368746a94a8f6",
+    "birth_date": "1967-03-20",
+    "age": 59,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 7,
+      "emotional_weight": 0.9651171193939456,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7445993836171089,
+      "fear": 0.2783786854700969,
+      "altruism": 0.533185847337683,
+      "ambition": 0.916809305064618,
+      "curiosity": 0.7961513579470394
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 62.615366951574366,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.554328983021748,
+      "health_consciousness": 0.8483727712777964
+    },
+    "emotional_vector": [
+      0.7445993836171089,
+      0.2783786854700969,
+      0.533185847337683,
+      0.916809305064618,
+      0.7961513579470394
+    ],
+    "memory_influence": 0.8975589210363694
+  },
+  {
+    "citizen_id": "BETA-56-721",
+    "digital_soul_hash": "2e389112cae1ef3da6a008c3136a3be5",
+    "birth_date": "1969-12-14",
+    "age": 57,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 10,
+      "emotional_weight": 0.9143170510441223,
+      "narrative": "Grandmother's garden empty after she passed, roses still blooming on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.3277398736094529,
+      "fear": 0.8364901666957866,
+      "altruism": 0.41978481669092776,
+      "ambition": 0.38142207615444745,
+      "curiosity": 0.23217427551739314
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 42.34082426461144,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.8435163812767965,
+      "health_consciousness": 0.36595030280389806
+    },
+    "emotional_vector": [
+      0.3277398736094529,
+      0.8364901666957866,
+      0.41978481669092776,
+      0.38142207615444745,
+      0.23217427551739314
+    ],
+    "memory_influence": 0.8228853459397101
+  },
+  {
+    "citizen_id": "ZETA-35-199",
+    "digital_soul_hash": "b3a626396eacc34195cb96fb06699633",
+    "birth_date": "1976-05-21",
+    "age": 50,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 22,
+      "emotional_weight": 0.992918430337096,
+      "narrative": "Moving away before saying goodbye to my best friend at the station during the autumn of my youth.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.22489117320680552,
+      "fear": 0.5615651122458636,
+      "altruism": 0.5915164122525751,
+      "ambition": 0.5861482051318128,
+      "curiosity": 0.2982482955836227
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 53.81922745243384,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.44564396363936265,
+      "health_consciousness": 0.7632438536339403
+    },
+    "emotional_vector": [
+      0.22489117320680552,
+      0.5615651122458636,
+      0.5915164122525751,
+      0.5861482051318128,
+      0.2982482955836227
+    ],
+    "memory_influence": 0.7744763756629349
+  },
+  {
+    "citizen_id": "OMEGA-60-845",
+    "digital_soul_hash": "c83cea94beae2039e6e8e0789d836dbd",
+    "birth_date": "1974-07-01",
+    "age": 52,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 19,
+      "emotional_weight": 0.7790172929104205,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are that winter changed everything.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.35851761281045474,
+      "fear": 0.4071007318673689,
+      "altruism": 0.5922115454874457,
+      "ambition": 0.8135173246979368,
+      "curiosity": 0.7357261474023942
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 50.03960146037683,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.5382086405212619,
+      "health_consciousness": 0.7324050681237368
+    },
+    "emotional_vector": [
+      0.35851761281045474,
+      0.4071007318673689,
+      0.5922115454874457,
+      0.8135173246979368,
+      0.7357261474023942
+    ],
+    "memory_influence": 0.6310040072574407
+  },
+  {
+    "citizen_id": "GAMMA-83-536",
+    "digital_soul_hash": "bb0c9749f9ce98029dfc69b53fb27c0e",
+    "birth_date": "1985-03-20",
+    "age": 41,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 24,
+      "emotional_weight": 0.7292290496755697,
+      "narrative": "The day I won the spelling bee while my father watched from the back row on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7853313901707393,
+      "fear": 0.27886800242595056,
+      "altruism": 0.3572398083200449,
+      "ambition": 0.6783481783363662,
+      "curiosity": 0.6088006187049039
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 61.21808302586206,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.34449703091728745,
+      "health_consciousness": 0.74352387317644
+    },
+    "emotional_vector": [
+      0.7853313901707393,
+      0.27886800242595056,
+      0.3572398083200449,
+      0.6783481783363662,
+      0.6088006187049039
+    ],
+    "memory_influence": 0.554214077753433
+  },
+  {
+    "citizen_id": "OMEGA-38-911",
+    "digital_soul_hash": "600b0a733256174445117a1fb28f6a8e",
+    "birth_date": "1999-02-07",
+    "age": 27,
+    "gender": "Female",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 23,
+      "emotional_weight": 0.8122507966151292,
+      "narrative": "Church potluck where strangers became family over shared stories during the autumn of my youth.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8133796945695853,
+      "fear": 0.13052783994754474,
+      "altruism": 0.7155856431073135,
+      "ambition": 0.6795831723875612,
+      "curiosity": 0.4445929153456629
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 61.3170311411438,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.30674619628250355,
+      "health_consciousness": 0.6877101735428262
+    },
+    "emotional_vector": [
+      0.8133796945695853,
+      0.13052783994754474,
+      0.7155856431073135,
+      0.6795831723875612,
+      0.4445929153456629
+    ],
+    "memory_influence": 0.6254331133936495
+  },
+  {
+    "citizen_id": "GAMMA-72-130",
+    "digital_soul_hash": "78b3777202d66b66b6b32f3cfecfa872",
+    "birth_date": "2002-02-07",
+    "age": 24,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 22,
+      "emotional_weight": 0.9633089702851708,
+      "narrative": "The day I won the spelling bee while my father watched from the back row one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5147360826028077,
+      "fear": 0.2031876191780811,
+      "altruism": 0.4448920998267123,
+      "ambition": 0.9900709133121814,
+      "curiosity": 0.410003594213735
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 50.39720027215279,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.7426296499621929,
+      "health_consciousness": 0.29527314151306333
+    },
+    "emotional_vector": [
+      0.5147360826028077,
+      0.2031876191780811,
+      0.4448920998267123,
+      0.9900709133121814,
+      0.410003594213735
+    ],
+    "memory_influence": 0.7513809968224333
+  },
+  {
+    "citizen_id": "OMEGA-82-529",
+    "digital_soul_hash": "7c6a65c9ddc0b491cf55f3cf67fd746e",
+    "birth_date": "1982-01-07",
+    "age": 44,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 16,
+      "emotional_weight": 0.7068462083087352,
+      "narrative": "Business collapsing in year one, rebuilding from zero during the autumn of my youth.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5341604894628492,
+      "fear": 0.5528028649335389,
+      "altruism": 0.6781639835969236,
+      "ambition": 0.4034092397047446,
+      "curiosity": 0.7271136668743042
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 50.31147090843319,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.8425237650077653,
+      "health_consciousness": 0.3637200910148236
+    },
+    "emotional_vector": [
+      0.5341604894628492,
+      0.5528028649335389,
+      0.6781639835969236,
+      0.4034092397047446,
+      0.7271136668743042
+    ],
+    "memory_influence": 0.5937508149793376
+  },
+  {
+    "citizen_id": "BETA-78-586",
+    "digital_soul_hash": "a377ff9d6a7d7419f464408dcb00ee30",
+    "birth_date": "1977-07-12",
+    "age": 49,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 7,
+      "emotional_weight": 0.9545735132736288,
+      "narrative": "Entire neighborhood coming together after the storm damaged homes on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.866866441600632,
+      "fear": 0.19091795882619403,
+      "altruism": 1.0,
+      "ambition": 0.33275560302003704,
+      "curiosity": 0.6544315100874893
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 64.68148661975714,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.584318286935255,
+      "health_consciousness": 0.22294385251629995
+    },
+    "emotional_vector": [
+      0.866866441600632,
+      0.19091795882619403,
+      1.0,
+      0.33275560302003704,
+      0.6544315100874893
+    ],
+    "memory_influence": 0.8877533673444747
+  },
+  {
+    "citizen_id": "OMEGA-94-885",
+    "digital_soul_hash": "76fc1c4c2481e7acd8b2abb3d66f5160",
+    "birth_date": "1996-05-14",
+    "age": 30,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 13,
+      "emotional_weight": 0.6681785940772548,
+      "narrative": "Moving away before saying goodbye to my best friend at the station during the autumn of my youth.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.37364658721554256,
+      "fear": 0.6253188319715528,
+      "altruism": 0.5935165641987175,
+      "ambition": 0.37462165853605356,
+      "curiosity": 0.29783440834316566
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 55.80779796820647,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.4483309506582092,
+      "health_consciousness": 0.8288078507276575
+    },
+    "emotional_vector": [
+      0.37364658721554256,
+      0.6253188319715528,
+      0.5935165641987175,
+      0.37462165853605356,
+      0.29783440834316566
+    ],
+    "memory_influence": 0.5813153768472117
+  },
+  {
+    "citizen_id": "OMEGA-62-242",
+    "digital_soul_hash": "1d64e3199127209018e082f42c4a0c78",
+    "birth_date": "1998-09-28",
+    "age": 28,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 7,
+      "emotional_weight": 0.65825090047374,
+      "narrative": "The family dog not waiting at the door when I came home from school on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.2611656710085124,
+      "fear": 0.8312160915539732,
+      "altruism": 0.5943908692912345,
+      "ambition": 0.32464224787892076,
+      "curiosity": 0.20183261189576263
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 50.783382199977254,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.5088866757025305,
+      "health_consciousness": 0.5096137160292324
+    },
+    "emotional_vector": [
+      0.2611656710085124,
+      0.8312160915539732,
+      0.5943908692912345,
+      0.32464224787892076,
+      0.20183261189576263
+    ],
+    "memory_influence": 0.6121733374405782
+  },
+  {
+    "citizen_id": "DELTA-20-815",
+    "digital_soul_hash": "00a9885d9da9f6b4b54145d71f4a9740",
+    "birth_date": "1946-03-14",
+    "age": 80,
+    "gender": "Male",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 22,
+      "emotional_weight": 0.7529251143066442,
+      "narrative": "First time coding 'Hello World' and feeling infinite possibility during the autumn of my youth.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.33178102486596994,
+      "fear": 0.3993532184245865,
+      "altruism": 0.4495782833877076,
+      "ambition": 0.5276897323384667,
+      "curiosity": 1.0
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 40.999880427788305,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.6295780238585362,
+      "health_consciousness": 0.3080390453102194
+    },
+    "emotional_vector": [
+      0.33178102486596994,
+      0.3993532184245865,
+      0.4495782833877076,
+      0.5276897323384667,
+      1.0
+    ],
+    "memory_influence": 0.5872815891591825
+  },
+  {
+    "citizen_id": "DELTA-19-630",
+    "digital_soul_hash": "f3df9709c4781cb44f615e6539fc9c51",
+    "birth_date": "1987-09-26",
+    "age": 39,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 23,
+      "emotional_weight": 0.747922833095847,
+      "narrative": "Business collapsing in year one, rebuilding from zero on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5409600320069019,
+      "fear": 0.4210912730018247,
+      "altruism": 0.48711141489992793,
+      "ambition": 0.6079392134828652,
+      "curiosity": 0.8364290772279763
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 58.09061262242546,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.34863698430365175,
+      "health_consciousness": 0.7309827172525671
+    },
+    "emotional_vector": [
+      0.5409600320069019,
+      0.4210912730018247,
+      0.48711141489992793,
+      0.6079392134828652,
+      0.8364290772279763
+    ],
+    "memory_influence": 0.5759005814838022
+  },
+  {
+    "citizen_id": "DELTA-53-909",
+    "digital_soul_hash": "2483d0a62bbb29479fe9a719ba809711",
+    "birth_date": "1995-08-11",
+    "age": 31,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 17,
+      "emotional_weight": 0.8997710981848868,
+      "narrative": "Church potluck where strangers became family over shared stories that winter changed everything.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9678715347304987,
+      "fear": 0.23494105133057921,
+      "altruism": 1.0,
+      "ambition": 0.4396354116196798,
+      "curiosity": 0.40950393010821956
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 68.95577610658646,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.5000076500456623,
+      "health_consciousness": 0.706556360798432
+    },
+    "emotional_vector": [
+      0.9678715347304987,
+      0.23494105133057921,
+      1.0,
+      0.4396354116196798,
+      0.40950393010821956
+    ],
+    "memory_influence": 0.7468100114934559
+  },
+  {
+    "citizen_id": "DELTA-86-361",
+    "digital_soul_hash": "d6c53da942344a3034a6bae50749d459",
+    "birth_date": "1968-01-01",
+    "age": 58,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 17,
+      "emotional_weight": 0.8368190485403777,
+      "narrative": "First time coding 'Hello World' and feeling infinite possibility on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.4736983282864594,
+      "fear": 0.31556734986596613,
+      "altruism": 0.25672081216186426,
+      "ambition": 0.5213676074354969,
+      "curiosity": 0.7259090430604602
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 48.19990041136762,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.7794406789755102,
+      "health_consciousness": 0.7916747775473649
+    },
+    "emotional_vector": [
+      0.4736983282864594,
+      0.31556734986596613,
+      0.25672081216186426,
+      0.5213676074354969,
+      0.7259090430604602
+    ],
+    "memory_influence": 0.6945598102885134
+  },
+  {
+    "citizen_id": "OMEGA-48-498",
+    "digital_soul_hash": "b98dce52b8a010ceaa6c1fb467777ced",
+    "birth_date": "1991-04-14",
+    "age": 35,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 19,
+      "emotional_weight": 0.809647729745792,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility during the autumn of my youth.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6095133066016147,
+      "fear": 0.35703960873918106,
+      "altruism": 0.5507506207943746,
+      "ambition": 0.5061423497307403,
+      "curiosity": 0.6999819105629951
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 51.5933503353025,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.8809425029133795,
+      "health_consciousness": 0.47612165942363904
+    },
+    "emotional_vector": [
+      0.6095133066016147,
+      0.35703960873918106,
+      0.5507506207943746,
+      0.5061423497307403,
+      0.6999819105629951
+    ],
+    "memory_influence": 0.6558146610940916
+  },
+  {
+    "citizen_id": "DELTA-32-665",
+    "digital_soul_hash": "ec718b7f6115b50f43e1b5a7287c45c8",
+    "birth_date": "1980-06-06",
+    "age": 46,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 22,
+      "emotional_weight": 0.6967139530229092,
+      "narrative": "Business collapsing in year one, rebuilding from zero in the summer of '98.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.36323116036009534,
+      "fear": 0.6675344806741057,
+      "altruism": 0.4410091223912971,
+      "ambition": 0.47911594191341345,
+      "curiosity": 0.6439679890309302
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 40.92365539737087,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.5377967978936293,
+      "health_consciousness": 0.20292635695330036
+    },
+    "emotional_vector": [
+      0.36323116036009534,
+      0.6675344806741057,
+      0.4410091223912971,
+      0.47911594191341345,
+      0.6439679890309302
+    ],
+    "memory_influence": 0.5434368833578692
+  },
+  {
+    "citizen_id": "SIGMA-81-946",
+    "digital_soul_hash": "b588933dca37c540398f3c55344bb73a",
+    "birth_date": "1995-01-01",
+    "age": 31,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 6,
+      "emotional_weight": 0.8295199323732232,
+      "narrative": "Entire neighborhood coming together after the storm damaged homes on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7979979214643386,
+      "fear": 0.19631031428797413,
+      "altruism": 1.0,
+      "ambition": 0.5119801700819616,
+      "curiosity": 0.3473662873510036
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 64.87504655244848,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.3807719109700284,
+      "health_consciousness": 0.32767254154411374
+    },
+    "emotional_vector": [
+      0.7979979214643386,
+      0.19631031428797413,
+      1.0,
+      0.5119801700819616,
+      0.3473662873510036
+    ],
+    "memory_influence": 0.7797487364308298
+  },
+  {
+    "citizen_id": "DELTA-96-778",
+    "digital_soul_hash": "18ab2aa7c9fb7a2cad8fc2509c75c649",
+    "birth_date": "1975-08-01",
+    "age": 51,
+    "gender": "Male",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 14,
+      "emotional_weight": 0.9992408284345071,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility that winter changed everything.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6742275479935658,
+      "fear": 0.6584491395981484,
+      "altruism": 0.45903592412748495,
+      "ambition": 0.5890728402033403,
+      "curiosity": 0.5441504197194396
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 56.04328655614966,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.7433688399466138,
+      "health_consciousness": 0.4448797822910715
+    },
+    "emotional_vector": [
+      0.6742275479935658,
+      0.6584491395981484,
+      0.45903592412748495,
+      0.5890728402033403,
+      0.5441504197194396
+    ],
+    "memory_influence": 0.8593471124536761
+  },
+  {
+    "citizen_id": "ALPHA-55-890",
+    "digital_soul_hash": "72914040906cdb7515cd8225ec3f8555",
+    "birth_date": "1983-11-15",
+    "age": 43,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 24,
+      "emotional_weight": 0.8134351265606986,
+      "narrative": "The family dog not waiting at the door when I came home from school that winter changed everything.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.2977677804332277,
+      "fear": 0.8018700192694004,
+      "altruism": 0.48881491322493825,
+      "ambition": 0.5823368904702725,
+      "curiosity": 0.5257033268420094
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 47.0894052740055,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.7341235533163608,
+      "health_consciousness": 0.6534550644644581
+    },
+    "emotional_vector": [
+      0.2977677804332277,
+      0.8018700192694004,
+      0.48881491322493825,
+      0.5823368904702725,
+      0.5257033268420094
+    ],
+    "memory_influence": 0.618210696186131
+  },
+  {
+    "citizen_id": "BETA-65-357",
+    "digital_soul_hash": "489fd8c3b3f2c028961cfd7573d8f0ad",
+    "birth_date": "1978-12-28",
+    "age": 48,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 12,
+      "emotional_weight": 0.8112677634185357,
+      "narrative": "Moving away before saying goodbye to my best friend at the station on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5076456282442487,
+      "fear": 0.6101536148475317,
+      "altruism": 0.6380579434774344,
+      "ambition": 0.42362315511371135,
+      "curiosity": 0.551736843346031
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 54.400175182601686,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.5005395601583966,
+      "health_consciousness": 0.37842623103701334
+    },
+    "emotional_vector": [
+      0.5076456282442487,
+      0.6101536148475317,
+      0.6380579434774344,
+      0.42362315511371135,
+      0.551736843346031
+    ],
+    "memory_influence": 0.7139156318083114
+  },
+  {
+    "citizen_id": "GAMMA-41-707",
+    "digital_soul_hash": "dccd5f9a5f14c0978ec22b116661e7b1",
+    "birth_date": "1949-06-24",
+    "age": 77,
+    "gender": "Male",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 16,
+      "emotional_weight": 0.6133379958356523,
+      "narrative": "Moving away before saying goodbye to my best friend at the station in the summer of '98.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5161827553452911,
+      "fear": 0.8300525152330331,
+      "altruism": 0.5248155766768625,
+      "ambition": 0.6758765275802846,
+      "curiosity": 0.28953701407408317
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 54.69591123488393,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.682077243006284,
+      "health_consciousness": 0.5000014985216781
+    },
+    "emotional_vector": [
+      0.5161827553452911,
+      0.8300525152330331,
+      0.5248155766768625,
+      0.6758765275802846,
+      0.28953701407408317
+    ],
+    "memory_influence": 0.5152039165019479
+  },
+  {
+    "citizen_id": "BETA-84-475",
+    "digital_soul_hash": "2e9e126b754429c824194e116b1bff52",
+    "birth_date": "1991-08-04",
+    "age": 35,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 12,
+      "emotional_weight": 0.814294431035572,
+      "narrative": "Failing the exam everyone expected me to ace, learning humility one spring morning.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.43425246621610325,
+      "fear": 0.5757677692733572,
+      "altruism": 0.47621269641826136,
+      "ambition": 0.5415551145936658,
+      "curiosity": 0.6560890249598403
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 48.57292329800106,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.733463364664106,
+      "health_consciousness": 0.5829789018270048
+    },
+    "emotional_vector": [
+      0.43425246621610325,
+      0.5757677692733572,
+      0.47621269641826136,
+      0.5415551145936658,
+      0.6560890249598403
+    ],
+    "memory_influence": 0.7165790993113034
+  },
+  {
+    "citizen_id": "ALPHA-63-690",
+    "digital_soul_hash": "84c174efbe60bbc492bb4029a0de4696",
+    "birth_date": "1945-04-07",
+    "age": 81,
+    "gender": "Female",
+    "life_stage": "Retirement",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 16,
+      "emotional_weight": 0.8924651478125343,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are during the autumn of my youth.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5054307942969427,
+      "fear": 0.49042558239586914,
+      "altruism": 0.4799042222178562,
+      "ambition": 0.7864532176734216,
+      "curiosity": 1.0
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 49.22209035442477,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.44417937479376457,
+      "health_consciousness": 0.527660742347872
+    },
+    "emotional_vector": [
+      0.5054307942969427,
+      0.49042558239586914,
+      0.4799042222178562,
+      0.7864532176734216,
+      1.0
+    ],
+    "memory_influence": 0.7496707241625288
+  },
+  {
+    "citizen_id": "OMEGA-52-841",
+    "digital_soul_hash": "e6268b606af79c5ef63b6204084732aa",
+    "birth_date": "1977-03-23",
+    "age": 49,
+    "gender": "Female",
+    "life_stage": "Late Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 22,
+      "emotional_weight": 0.8748293955536712,
+      "narrative": "Losing the championship but gaining respect for sportsmanship that winter changed everything.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6596643661547887,
+      "fear": 0.34980711800603204,
+      "altruism": 0.6869921573339364,
+      "ambition": 0.4439234024863228,
+      "curiosity": 0.892749989514418
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 56.507068381598366,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.5190304347447128,
+      "health_consciousness": 0.6005932465662362
+    },
+    "emotional_vector": [
+      0.6596643661547887,
+      0.34980711800603204,
+      0.6869921573339364,
+      0.4439234024863228,
+      0.892749989514418
+    ],
+    "memory_influence": 0.6823669285318635
+  },
+  {
+    "citizen_id": "OMEGA-72-685",
+    "digital_soul_hash": "821948e088d2e2716ce396fd36468db6",
+    "birth_date": "1984-03-17",
+    "age": 42,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 16,
+      "emotional_weight": 0.8106440019535457,
+      "narrative": "The day I won the spelling bee while my father watched from the back row during the autumn of my youth.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7700653517685168,
+      "fear": 0.24687370736203612,
+      "altruism": 0.5808022293800944,
+      "ambition": 0.6143954213953964,
+      "curiosity": 0.6690161668000807
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 57.52191206877335,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.673165007340089,
+      "health_consciousness": 0.627238106180106
+    },
+    "emotional_vector": [
+      0.7700653517685168,
+      0.24687370736203612,
+      0.5808022293800944,
+      0.6143954213953964,
+      0.6690161668000807
+    ],
+    "memory_influence": 0.6809409616409784
+  },
+  {
+    "citizen_id": "OMEGA-51-723",
+    "digital_soul_hash": "547284376b799cf73f47216cae4f237c",
+    "birth_date": "1999-03-21",
+    "age": 27,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 24,
+      "emotional_weight": 0.779800571748182,
+      "narrative": "Scoring the winning goal in rain-soaked mud, teammates lifting me up in the summer of '98.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6510175934212348,
+      "fear": 0.32118517355679915,
+      "altruism": 0.39078725277130894,
+      "ambition": 0.6360262380869784,
+      "curiosity": 0.5286003992880504
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 47.22562682835578,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.4084570302906603,
+      "health_consciousness": 0.3562310778907629
+    },
+    "emotional_vector": [
+      0.6510175934212348,
+      0.32118517355679915,
+      0.39078725277130894,
+      0.6360262380869784,
+      0.5286003992880504
+    ],
+    "memory_influence": 0.5926484345286183
+  },
+  {
+    "citizen_id": "ALPHA-75-285",
+    "digital_soul_hash": "7e057b35ce4ed2bc6d3c9268b14514de",
+    "birth_date": "1985-06-10",
+    "age": 41,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 14,
+      "emotional_weight": 0.6725225635029443,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are that winter changed everything.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.30920688610976654,
+      "fear": 0.35294435956998754,
+      "altruism": 0.3535096382417813,
+      "ambition": 0.8881498847754645,
+      "curiosity": 0.9704159116245002
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 47.49981162637536,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.7643272960645666,
+      "health_consciousness": 0.8008686220368875
+    },
+    "emotional_vector": [
+      0.30920688610976654,
+      0.35294435956998754,
+      0.3535096382417813,
+      0.8881498847754645,
+      0.9704159116245002
+    ],
+    "memory_influence": 0.5783694046125321
+  },
+  {
+    "citizen_id": "SIGMA-43-900",
+    "digital_soul_hash": "7587248aae0c8ce39af35de98eb0da98",
+    "birth_date": "1982-11-13",
+    "age": 44,
+    "gender": "Male",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "personal_failure",
+      "age_at_event": 25,
+      "emotional_weight": 0.6135424542668467,
+      "narrative": "Losing the championship but gaining respect for sportsmanship in the summer of '98.",
+      "associated_emotions": [
+        "humility",
+        "determination",
+        "reflection"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.6189382224294495,
+      "fear": 0.30866562897815464,
+      "altruism": 0.5828522416155077,
+      "ambition": 0.42096998106752015,
+      "curiosity": 0.6778106881604038
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 53.37843335155897,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.5358405825190177,
+      "health_consciousness": 0.5504590185824911
+    },
+    "emotional_vector": [
+      0.6189382224294495,
+      0.30866562897815464,
+      0.5828522416155077,
+      0.42096998106752015,
+      0.6778106881604038
+    ],
+    "memory_influence": 0.4601568407001351
+  },
+  {
+    "citizen_id": "ALPHA-49-816",
+    "digital_soul_hash": "fa327ea88e38984ba15c550ebc13dab5",
+    "birth_date": "1986-11-07",
+    "age": 40,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 21,
+      "emotional_weight": 0.8021725643274173,
+      "narrative": "Grandmother's garden empty after she passed, roses still blooming that winter changed everything.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.32829736146930566,
+      "fear": 0.766717902099602,
+      "altruism": 0.5950701589060318,
+      "ambition": 0.5481083095856559,
+      "curiosity": 0.3935132251479467
+    },
+    "archetype": "The Disillusioned Artist",
+    "social_credit_score": 50.29865773122074,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.3,
+      "risk_averse": 0.2,
+      "tech_savvy": 0.6,
+      "social_engagement": 0.6613776988107649,
+      "health_consciousness": 0.7871105412162771
+    },
+    "emotional_vector": [
+      0.32829736146930566,
+      0.766717902099602,
+      0.5950701589060318,
+      0.5481083095856559,
+      0.3935132251479467
+    ],
+    "memory_influence": 0.6337163258186598
+  },
+  {
+    "citizen_id": "OMEGA-57-629",
+    "digital_soul_hash": "e387c4cbf1e4c7398109e8286c681b36",
+    "birth_date": "2001-07-18",
+    "age": 25,
+    "gender": "Female",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 20,
+      "emotional_weight": 0.6875813149107741,
+      "narrative": "Building my first radio from scrap parts, hearing static turn to music during the autumn of my youth.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.7674464453006964,
+      "fear": 0.38642636621271,
+      "altruism": 0.47307829200398593,
+      "ambition": 0.8230002476987618,
+      "curiosity": 0.674219665789989
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 60.83861806188568,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.7911526717428676,
+      "health_consciousness": 0.626234318387465
+    },
+    "emotional_vector": [
+      0.7674464453006964,
+      0.38642636621271,
+      0.47307829200398593,
+      0.8230002476987618,
+      0.674219665789989
+    ],
+    "memory_influence": 0.5500650519286193
+  },
+  {
+    "citizen_id": "GAMMA-91-548",
+    "digital_soul_hash": "fd5cd0b75e337adf8680596182cb1995",
+    "birth_date": "2006-10-08",
+    "age": 20,
+    "gender": "Female",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 18,
+      "emotional_weight": 0.7298040044369098,
+      "narrative": "Entire neighborhood coming together after the storm damaged homes one spring morning.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9514157049231116,
+      "fear": 0.36805174263978274,
+      "altruism": 1.0,
+      "ambition": 0.34085985430531396,
+      "curiosity": 0.3346445349914131
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 70.43922484665057,
+    "insurance_risk_tier": "Low-Risk",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.4779325621049668,
+      "health_consciousness": 0.8273940498792229
+    },
+    "emotional_vector": [
+      0.9514157049231116,
+      0.36805174263978274,
+      1.0,
+      0.34085985430531396,
+      0.3346445349914131
+    ],
+    "memory_influence": 0.5984392836382662
+  },
+  {
+    "citizen_id": "OMEGA-67-315",
+    "digital_soul_hash": "791eaebd968bdc53a6d9341fa5ddc438",
+    "birth_date": "2008-06-01",
+    "age": 18,
+    "gender": "Female",
+    "life_stage": "Student",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 11,
+      "emotional_weight": 0.7356268931720826,
+      "narrative": "Church potluck where strangers became family over shared stories one spring morning.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8822884054319694,
+      "fear": 0.176554396516996,
+      "altruism": 1.0,
+      "ambition": 0.6479763472221771,
+      "curiosity": 0.6844737897814315
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 64.85714723987044,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.4860611551316313,
+      "health_consciousness": 0.5474252754154034
+    },
+    "emotional_vector": [
+      0.8822884054319694,
+      0.176554396516996,
+      1.0,
+      0.6479763472221771,
+      0.6844737897814315
+    ],
+    "memory_influence": 0.6547079349231536
+  },
+  {
+    "citizen_id": "BETA-46-601",
+    "digital_soul_hash": "39ca3cbe3327e367f46f3bc96d3c155f",
+    "birth_date": "1998-05-01",
+    "age": 28,
+    "gender": "Female",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 11,
+      "emotional_weight": 0.6052515354039109,
+      "narrative": "The family dog not waiting at the door when I came home from school in the summer of '98.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.25465486529378595,
+      "fear": 0.8273109570154458,
+      "altruism": 0.5798419231106753,
+      "ambition": 0.33161193111383985,
+      "curiosity": 0.3487852568680174
+    },
+    "archetype": "The Digital Native",
+    "social_credit_score": 43.538174718712696,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.4,
+      "tech_savvy": 0.95,
+      "social_engagement": 0.40889474468612386,
+      "health_consciousness": 0.3831632377451232
+    },
+    "emotional_vector": [
+      0.25465486529378595,
+      0.8273109570154458,
+      0.5798419231106753,
+      0.33161193111383985,
+      0.3487852568680174
+    ],
+    "memory_influence": 0.5386738665094807
+  },
+  {
+    "citizen_id": "ALPHA-84-345",
+    "digital_soul_hash": "f19b806b2c56ca38977ef7bc8bb86060",
+    "birth_date": "1957-04-23",
+    "age": 69,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "childhood_triumph",
+      "age_at_event": 21,
+      "emotional_weight": 0.6453864240814772,
+      "narrative": "The day I won the spelling bee while my father watched from the back row one spring morning.",
+      "associated_emotions": [
+        "pride",
+        "confidence",
+        "joy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8120328105824917,
+      "fear": 0.30221486954562315,
+      "altruism": 0.5349437894519756,
+      "ambition": 0.7749475871852598,
+      "curiosity": 0.5575757876792334
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 63.2136699069779,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.30081999424275874,
+      "health_consciousness": 0.7965904569032287
+    },
+    "emotional_vector": [
+      0.8120328105824917,
+      0.30221486954562315,
+      0.5349437894519756,
+      0.7749475871852598,
+      0.5575757876792334
+    ],
+    "memory_influence": 0.509855275024367
+  },
+  {
+    "citizen_id": "OMEGA-98-280",
+    "digital_soul_hash": "7c3ea218f5b190f931cb98e52e72d978",
+    "birth_date": "1997-03-16",
+    "age": 29,
+    "gender": "Male",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 22,
+      "emotional_weight": 0.6946377284042244,
+      "narrative": "Finding astronomy books in the attic, realizing how small we are one spring morning.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.5895784659088443,
+      "fear": 0.30846378703711524,
+      "altruism": 0.3846045642771838,
+      "ambition": 0.5918135887375443,
+      "curiosity": 0.8933490432254908
+    },
+    "archetype": "The Ambitious Entrepreneur",
+    "social_credit_score": 47.05925430269172,
+    "insurance_risk_tier": "Elevated",
+    "behavioral_patterns": {
+      "routine": 0.4,
+      "risk_averse": 0.3,
+      "tech_savvy": 0.8,
+      "social_engagement": 0.646804989918704,
+      "health_consciousness": 0.36657443469047235
+    },
+    "emotional_vector": [
+      0.5895784659088443,
+      0.30846378703711524,
+      0.3846045642771838,
+      0.5918135887375443,
+      0.8933490432254908
+    ],
+    "memory_influence": 0.5418174281552951
+  },
+  {
+    "citizen_id": "ALPHA-23-439",
+    "digital_soul_hash": "af441577f6ce1f8330f640c75722e837",
+    "birth_date": "1998-04-04",
+    "age": 28,
+    "gender": "Female",
+    "life_stage": "Early Career",
+    "memory_anchor": {
+      "event_type": "discovery",
+      "age_at_event": 17,
+      "emotional_weight": 0.8369112915393657,
+      "narrative": "Stumbling upon hidden jazz records that changed my taste forever in the summer of '98.",
+      "associated_emotions": [
+        "wonder",
+        "curiosity",
+        "awe"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.4742952511454094,
+      "fear": 0.5838590024788819,
+      "altruism": 0.537939592989478,
+      "ambition": 0.6978004763544661,
+      "curiosity": 1.0
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 50.49662148572873,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.41229341203202596,
+      "health_consciousness": 0.2627748378652253
+    },
+    "emotional_vector": [
+      0.4742952511454094,
+      0.5838590024788819,
+      0.537939592989478,
+      0.6978004763544661,
+      1.0
+    ],
+    "memory_influence": 0.6946363719776735
+  },
+  {
+    "citizen_id": "DELTA-52-996",
+    "digital_soul_hash": "3a9dce5b8d17f6f2824c0e57a6d0c082",
+    "birth_date": "1964-05-17",
+    "age": 62,
+    "gender": "Male",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 8,
+      "emotional_weight": 0.9806186955062389,
+      "narrative": "Protest march where I felt part of something larger than myself in the summer of '98.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.8711926627888793,
+      "fear": 0.4895228055819846,
+      "altruism": 1.0,
+      "ambition": 0.6122179891502335,
+      "curiosity": 0.4497374449460019
+    },
+    "archetype": "The Stoic Engineer",
+    "social_credit_score": 73.04236805456875,
+    "insurance_risk_tier": "Low-Risk",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.8,
+      "tech_savvy": 0.9,
+      "social_engagement": 0.8008346799434305,
+      "health_consciousness": 0.7745676532527448
+    },
+    "emotional_vector": [
+      0.8711926627888793,
+      0.4895228055819846,
+      1.0,
+      0.6122179891502335,
+      0.4497374449460019
+    ],
+    "memory_influence": 0.9021691998657398
+  },
+  {
+    "citizen_id": "BETA-26-244",
+    "digital_soul_hash": "c17a86ed50f1453354b067901afac380",
+    "birth_date": "1962-12-10",
+    "age": 64,
+    "gender": "Female",
+    "life_stage": "Pre-Retirement",
+    "memory_anchor": {
+      "event_type": "community_bond",
+      "age_at_event": 22,
+      "emotional_weight": 0.8763011910344405,
+      "narrative": "Church potluck where strangers became family over shared stories in the summer of '98.",
+      "associated_emotions": [
+        "belonging",
+        "trust",
+        "solidarity"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.9862822387358205,
+      "fear": 0.34072389436238104,
+      "altruism": 0.9688747862718302,
+      "ambition": 0.5932506246404721,
+      "curiosity": 0.34414095371389414
+    },
+    "archetype": "The Traditional Elder",
+    "social_credit_score": 72.50695757387776,
+    "insurance_risk_tier": "Low-Risk",
+    "behavioral_patterns": {
+      "routine": 0.9,
+      "risk_averse": 0.9,
+      "tech_savvy": 0.3,
+      "social_engagement": 0.5913180139352205,
+      "health_consciousness": 0.6165460670055924
+    },
+    "emotional_vector": [
+      0.9862822387358205,
+      0.34072389436238104,
+      0.9688747862718302,
+      0.5932506246404721,
+      0.34414095371389414
+    ],
+    "memory_influence": 0.6835149290068636
+  },
+  {
+    "citizen_id": "EPSILON-75-155",
+    "digital_soul_hash": "93159e8c3fded009f50a4ddb35b26a18",
+    "birth_date": "1987-06-25",
+    "age": 39,
+    "gender": "Female",
+    "life_stage": "Mid-Career",
+    "memory_anchor": {
+      "event_type": "early_loss",
+      "age_at_event": 18,
+      "emotional_weight": 0.6874624078005883,
+      "narrative": "Moving away before saying goodbye to my best friend at the station on a Tuesday I'll never forget.",
+      "associated_emotions": [
+        "sadness",
+        "resilience",
+        "melancholy"
+      ]
+    },
+    "emotional_resonance": {
+      "trust": 0.49819413140500246,
+      "fear": 0.6560920311683117,
+      "altruism": 0.7931512774531454,
+      "ambition": 0.48621505869830184,
+      "curiosity": 0.49648438656449806
+    },
+    "archetype": "The Community Builder",
+    "social_credit_score": 52.40587410128052,
+    "insurance_risk_tier": "Standard",
+    "behavioral_patterns": {
+      "routine": 0.7,
+      "risk_averse": 0.5,
+      "tech_savvy": 0.5,
+      "social_engagement": 0.751819324869285,
+      "health_consciousness": 0.2363148207588853
+    },
+    "emotional_vector": [
+      0.49819413140500246,
+      0.6560920311683117,
+      0.7931512774531454,
+      0.48621505869830184,
+      0.49648438656449806
+    ],
+    "memory_influence": 0.5637191743964824
+  }
+]
