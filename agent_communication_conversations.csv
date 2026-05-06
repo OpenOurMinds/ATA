@@ -1,0 +1,3 @@
+conversation_id,layer,participants,started_by,start_time,message_count,topic,is_private,trust_level
+CONV-841678,layer1_opened,"['AGENT-001', 'AGENT-002', 'AGENT-003']",AGENT-001,2026-04-30T16:18:47.245630,0,Task Coordination,False,1.0
+PRIVATE-886388,layer2_semi_opened,"['AGENT-001', 'AGENT-002']",AGENT-001,2026-04-30T16:18:47.245677,0,Emotional Support,True,0.8
