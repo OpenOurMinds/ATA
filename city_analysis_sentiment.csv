@@ -1,0 +1,4 @@
+post_id,sentiment_category,sentiment_score,democratic_contribution,keywords_extracted,archetype
+POST-000001,positive,1.0,1.0,"['community', 'helping', 'together', 'neighbor']",The Community Builder
+POST-000002,positive,1.0,1.0,"['community', 'helping', 'together', 'neighbor']",The Community Builder
+POST-000003,positive,1.0,1.0,"['community', 'helping', 'together', 'neighbor']",The Community Builder
