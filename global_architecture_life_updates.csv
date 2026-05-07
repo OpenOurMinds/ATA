@@ -1,0 +1,152 @@
+packet_id,source_city,digital_soul_hash,activity_type,activity_data,timestamp,packet_type
+ACT-863711,NY,7dc7f8ae7e53faa3b4842e6521ba0467,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.39646020887992695}",2026-04-30T13:47:40.844524,social
+ACT-524522,NY,123ddb7bf91dbc27b743d0cad5cf49b8,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.518067294732552}",2026-04-30T13:47:40.844542,social
+ACT-345059,NY,931fc0d60d33505e7d8ed7b589675bfa,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5436073930051052}",2026-04-30T13:47:40.844549,social
+ACT-937774,NY,67b3d12fa3fc8c59de1f3a3f579310c7,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.3994145734324582}",2026-04-30T13:47:40.844553,social
+ACT-862135,NY,7280051736ce75df75d88dd1dce74eb4,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.3889137014770121}",2026-04-30T13:47:40.844557,social
+ACT-380578,NY,2c96278dafb1d3736ec52921bf27d4c2,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.43849998486060354}",2026-04-30T13:47:40.844561,social
+ACT-442777,NY,e213d92e57bc8d34e85040180b73dc28,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.3417090846460966}",2026-04-30T13:47:40.844564,social
+ACT-840399,NY,c78d5c4e1d0f370d70a31e42e45ee6d5,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5521969284773272}",2026-04-30T13:47:40.844567,social
+ACT-935567,NY,1450e887e48678e477d27470189b5427,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.48864903649616476}",2026-04-30T13:47:40.844570,social
+ACT-340278,NY,031d3e18908c4d90bf09293be9dbd948,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.7667814635363456}",2026-04-30T13:47:40.844573,social
+ACT-829170,NY,36d5514e0e6e1a9f5d94bbb7da03a05e,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8303085008147735}",2026-04-30T13:47:40.844576,social
+ACT-523179,NY,7fa4bb64f3ee569d7521e83293848538,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.40143604430814955}",2026-04-30T13:47:40.844579,social
+ACT-217416,NY,483c56e45ca9f44f837b907319692888,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.4269288363382771}",2026-04-30T13:47:40.844582,social
+ACT-524100,NY,4160fd1085c0df7261358f3c1be0d1f8,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5811789660916847}",2026-04-30T13:47:40.844585,social
+ACT-536598,NY,db25ccc66973dd0869735c49c71a41ad,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5717322049162525}",2026-04-30T13:47:40.844588,social
+ACT-447518,NY,ac80a044b94ab7668e58df5692116fe4,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8248713041331559}",2026-04-30T13:47:40.844593,social
+ACT-596258,NY,47840ef9ccf67b0feb994502e19f99f0,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5902635957678246}",2026-04-30T13:47:40.844596,social
+ACT-461217,NY,ea363ab56c6f1a13c7d53c79d6811ff3,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8164669556463597}",2026-04-30T13:47:40.844599,social
+ACT-547040,NY,fc10522b18a6da4debdbbafc2b5e2e8c,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8764404505802184}",2026-04-30T13:47:40.844602,social
+ACT-511746,NY,933c24f6a0a8c91be72b19b392a6c63a,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8597881645003675}",2026-04-30T13:47:40.844605,social
+ACT-742252,NY,05b7d72c53e061ebd07b7979f1ca5eb4,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8922182589845544}",2026-04-30T13:47:40.844608,social
+ACT-354177,NY,179ec25ae2e9d14a5c3b589dc914800c,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6593468933266156}",2026-04-30T13:47:40.844611,social
+ACT-116108,NY,a1c471f7f1ffe3083b0c27af6cae8e3e,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.31832126307373476}",2026-04-30T13:47:40.844614,social
+ACT-662392,NY,6f4769252b7a4e39b59339a24b64b946,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6697470174130296}",2026-04-30T13:47:40.844617,social
+ACT-569462,NY,1896ace71a5d61dd8af084d0c8fa793d,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.759926034085956}",2026-04-30T13:47:40.844620,social
+ACT-556490,NY,2a9cdcf39569ec0dcb85b177bdc25295,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6425426264858234}",2026-04-30T13:47:40.844624,social
+ACT-722914,NY,716ae27841cd9d33716f54e9c5161e9a,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8555783991140087}",2026-04-30T13:47:40.844626,social
+ACT-174305,NY,e3f1f2bfc2805166d8bc06201a00fdf8,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.47029544280671753}",2026-04-30T13:47:40.844629,social
+ACT-788937,NY,738253367ee48858270c404f572a4f69,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6363062341732013}",2026-04-30T13:47:40.844632,social
+ACT-754688,NY,6b61d88899df7b889cca09b61115e95f,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.3023119131509457}",2026-04-30T13:47:40.844635,social
+ACT-145354,NY,245909332bcf86c98d637403ba381f38,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8088240974740335}",2026-04-30T13:47:40.844637,social
+ACT-314654,NY,dcd8649e3db067efbeadf2b6791efa0d,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.44382350852739794}",2026-04-30T13:47:40.844640,social
+ACT-663623,NY,24531d7da03c2f769c7336ee2c3f5be7,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.42778117716709274}",2026-04-30T13:47:40.844643,social
+ACT-762796,NY,812fc9821ef8c4c0b5a536d2f3b414a8,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.3198320876122047}",2026-04-30T13:47:40.844646,social
+ACT-445437,NY,7b4d46f021221dc819c2d16a258ae6c8,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6428323394750248}",2026-04-30T13:47:40.844648,social
+ACT-210008,NY,68d547b5b66edffcceaaa63802069e0c,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.49523739815651535}",2026-04-30T13:47:40.844651,social
+ACT-242267,NY,7be1fc3249eab3b8e5661bb10396747d,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.6466188757702804}",2026-04-30T13:47:40.844654,social
+ACT-335324,NY,b94c81a699efb8b2b9d999ca748dad04,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.7532229965461943}",2026-04-30T13:47:40.844656,social
+ACT-252293,NY,2dbbdbf77dcf546e170b218b486448c0,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.7156073346173463}",2026-04-30T13:47:40.844659,social
+ACT-442801,NY,3893db089ac762a8a039545ac1193a78,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.883188142207789}",2026-04-30T13:47:40.844662,social
+ACT-700419,NY,0525085f86e8a36adeabb5929e4025fb,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.7560180445568935}",2026-04-30T13:47:40.844665,social
+ACT-768453,NY,7b6094a6938b6f6ded13c8c1cfd45c0c,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8181662249646318}",2026-04-30T13:47:40.844668,social
+ACT-841725,NY,3cbbcc3755b4e905066da357d60227a6,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8660424284435992}",2026-04-30T13:47:40.844670,social
+ACT-213077,NY,8f9ddda8c66e9f79f022ee570c0267fe,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5594000808370626}",2026-04-30T13:47:40.844673,social
+ACT-793262,NY,8191f825a884f45ee772ab2b269e17ee,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5608454419284952}",2026-04-30T13:47:40.844676,social
+ACT-483446,NY,093bbd9ab9535c1352b961883a78b535,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5470022337383035}",2026-04-30T13:47:40.844678,social
+ACT-786348,NY,0b7cc293d973ad80719a4d8854e5570f,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8881007224895245}",2026-04-30T13:47:40.844681,social
+ACT-487005,NY,ee8feec034ab66146deb9ac880773b19,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.8381509764368844}",2026-04-30T13:47:40.844684,social
+ACT-474314,NY,8a0a9a97621e2e4ee720c28751454f37,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.5210260638776116}",2026-04-30T13:47:40.844687,social
+ACT-294953,NY,f298a87352472b8bd1bdc4a2be878ba9,social,"{'content': 'Completed side hustle logistics activity today', 'sentiment_score': 0.7241417684567713}",2026-04-30T13:47:40.844810,social
+ACT-890965,BJ,3caed23a9fa731f3dbb449a152cf5dd0,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.30036105551143333}",2026-04-30T13:47:40.845493,social
+ACT-512381,BJ,36e211f814b21dba69154315d9d330bd,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6725687738326548}",2026-04-30T13:47:40.845498,social
+ACT-427871,BJ,7e36a4977e88d192a632d1e02300bbe5,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5764000271387003}",2026-04-30T13:47:40.845501,social
+ACT-468707,BJ,fc8027382c8108d9e3bf54cd493495f9,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7677190636951662}",2026-04-30T13:47:40.845505,social
+ACT-207292,BJ,18e6d5f254ce9ed1eeba91aac78e6c09,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6394620935569266}",2026-04-30T13:47:40.845508,social
+ACT-695819,BJ,81319282d70d4c9af305e50a4adce252,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7482913982813895}",2026-04-30T13:47:40.845511,social
+ACT-547421,BJ,3ba1cb77fc41193f9617b346edc65c2b,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7574725352805941}",2026-04-30T13:47:40.845514,social
+ACT-484370,BJ,645d30f19aefb726420bf7353d7b11a0,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3149728801670752}",2026-04-30T13:47:40.845517,social
+ACT-774693,BJ,24a96a1f8085fa882f337eae735c0f8a,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5709927903678012}",2026-04-30T13:47:40.845520,social
+ACT-802592,BJ,742646fbe6bfc3c132aef94c61de0ece,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.805789045406075}",2026-04-30T13:47:40.845523,social
+ACT-174995,BJ,ec339918d247d4f886f51fc3f883ae72,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8710366256220765}",2026-04-30T13:47:40.845526,social
+ACT-662953,BJ,9adacb935c8839e641030fef49ba8092,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7996113784213117}",2026-04-30T13:47:40.845529,social
+ACT-522500,BJ,14f152690a323c81e57dc7d6b59f1ad1,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5052246249966352}",2026-04-30T13:47:40.845532,social
+ACT-566335,BJ,d7e8a42bc744aae74d97b5db06522380,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3826847516352134}",2026-04-30T13:47:40.845535,social
+ACT-836914,BJ,b71a7476699bf5cfbb95ec80aa4ee730,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8745910554221554}",2026-04-30T13:47:40.845538,social
+ACT-912899,BJ,275d1d7f48917a9efa47e55ef6c44999,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6443928923529005}",2026-04-30T13:47:40.845550,social
+ACT-239141,BJ,3e5b9f08b95bb569a845323524a5b9c7,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8745315574363774}",2026-04-30T13:47:40.845553,social
+ACT-894310,BJ,de030b903a7bcb22e2c360a03d397b3c,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3125172073503308}",2026-04-30T13:47:40.845556,social
+ACT-142587,BJ,c16d60f3f7403a6aedc2b8036df36678,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6884780879420632}",2026-04-30T13:47:40.845559,social
+ACT-897904,BJ,e17a25db9db317f793000cf0c02fcf14,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5826131889480044}",2026-04-30T13:47:40.845562,social
+ACT-878841,BJ,3f2952d42237cddb3a28f49cff58fc00,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8227735722988121}",2026-04-30T13:47:40.845565,social
+ACT-981916,BJ,13efd0dcaf1fd456083dfab12146259b,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5846979052093304}",2026-04-30T13:47:40.845568,social
+ACT-254725,BJ,448ca352d31777b3993fbd4bf30f9d21,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3402224265530351}",2026-04-30T13:47:40.845571,social
+ACT-120482,BJ,ea6a57d74d75f5934d195925cc7fc99f,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7058753727880926}",2026-04-30T13:47:40.845574,social
+ACT-595535,BJ,7e11138cce2c478a2479534468daedb5,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7435487435202535}",2026-04-30T13:47:40.845577,social
+ACT-988121,BJ,8ec30f80662873645f351bfdcc97e614,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.4444792401091098}",2026-04-30T13:47:40.845580,social
+ACT-405471,BJ,4bac0428abd22f92648b515aa9b5a87b,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.49007004902904505}",2026-04-30T13:47:40.845582,social
+ACT-351093,BJ,d4439299718989890f0141e7aab21c15,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7830100604984481}",2026-04-30T13:47:40.845589,social
+ACT-414879,BJ,9a10cb978d220cfa0d5c98ac23672954,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.46680895140699213}",2026-04-30T13:47:40.845592,social
+ACT-985495,BJ,4e6cc1f52e371d6e17f04b38f8251361,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3057886344645488}",2026-04-30T13:47:40.845594,social
+ACT-470850,BJ,b89976eb82518569e9f6e7423228469b,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6038194919130253}",2026-04-30T13:47:40.845597,social
+ACT-904065,BJ,9bfbd7b0dd1f0dbe97e3c1806d56f73b,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6244892872417653}",2026-04-30T13:47:40.845600,social
+ACT-332992,BJ,eaab0e04c9906024c93e84ebce39ecff,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7112352738431275}",2026-04-30T13:47:40.845603,social
+ACT-760877,BJ,e0865c8da4803c22265f84c4a7c98dba,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5651314909791272}",2026-04-30T13:47:40.845606,social
+ACT-832543,BJ,d146c6771c7256e11614a12f36258d04,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7446148527661762}",2026-04-30T13:47:40.845609,social
+ACT-928391,BJ,2ce441b59951df0f30fbcccc515364c7,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.3610256588473114}",2026-04-30T13:47:40.845611,social
+ACT-964023,BJ,e5c0c4654c4cea5a2209d9ad5e13ac17,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8955799465177079}",2026-04-30T13:47:40.845614,social
+ACT-581889,BJ,363de1411633bae1e170d1cc001b5c8d,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.666633457933259}",2026-04-30T13:47:40.845617,social
+ACT-996553,BJ,9a51812cb96d88f0f01600465850e0cb,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5245716286574661}",2026-04-30T13:47:40.845619,social
+ACT-682706,BJ,60b73497de87994e9802c3ec904632bf,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5124745895024025}",2026-04-30T13:47:40.845622,social
+ACT-342095,BJ,3abb30bb08f0c3f0ce2e17d633ddc6f6,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5643658859814699}",2026-04-30T13:47:40.845625,social
+ACT-715886,BJ,a9b7733574d01c77d22dc2b84fa899e6,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.7769604475208503}",2026-04-30T13:47:40.845628,social
+ACT-159217,BJ,2038bf832b29d01d07d3959272b8068a,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.4326985798493014}",2026-04-30T13:47:40.845631,social
+ACT-494074,BJ,d285f88f7f016176f990b59a2e3df851,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.4806409492544959}",2026-04-30T13:47:40.845639,social
+ACT-252331,BJ,b9d3866a49358c79c47a182c59746bae,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.4363652787969838}",2026-04-30T13:47:40.845642,social
+ACT-398110,BJ,07d9e529a2b46c1c8a81e9e969c828ff,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5664549233194159}",2026-04-30T13:47:40.845647,social
+ACT-509315,BJ,a06fd7c06b6aabda8f496b6d0785e68f,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.47600244093466654}",2026-04-30T13:47:40.845650,social
+ACT-343601,BJ,45f8bb7077d99b1244711fee483baddc,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.6789424419863792}",2026-04-30T13:47:40.845653,social
+ACT-226712,BJ,696e6279d46ec5815634f53c0f209f4c,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.8685374025611694}",2026-04-30T13:47:40.845655,social
+ACT-721577,BJ,87a74a88d35af3f5bc0a23ec07615b24,social,"{'content': 'Completed community service activity activity today', 'sentiment_score': 0.5486357019902957}",2026-04-30T13:47:40.845658,social
+ACT-331452,TK,d98c634c5a296eedcbfe5a4002a88f08,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.30447576100630824}",2026-04-30T13:47:40.846185,social
+ACT-691394,TK,ce245e1edb27a7a3d70e943123b24cf9,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.40117413599275553}",2026-04-30T13:47:40.846190,social
+ACT-744414,TK,cf325a51b5f96e5b1b14ef9cdd91093f,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8179839939756075}",2026-04-30T13:47:40.846193,social
+ACT-537410,TK,5a26371c34aad79133a9d930445540cc,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5868718323653006}",2026-04-30T13:47:40.846196,social
+ACT-758736,TK,4634f93fd2712ab794a426b338b27759,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7035979172648936}",2026-04-30T13:47:40.846199,social
+ACT-783790,TK,baae1b0f28691da426c6b496b2b919ea,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7776360726547429}",2026-04-30T13:47:40.846201,social
+ACT-252356,TK,b96543b3ec5c5fe90d241950cefe5d5e,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.878365377899462}",2026-04-30T13:47:40.846204,social
+ACT-980609,TK,e8b7728b9ad9cb1ddd3fd40728a456eb,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5194422501018898}",2026-04-30T13:47:40.846207,social
+ACT-170765,TK,152fce9f9c90829e88f5da17fe993650,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.3943102420605885}",2026-04-30T13:47:40.846210,social
+ACT-689793,TK,16e351f5df7ae29b7fb137addd5ad261,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7155290029558963}",2026-04-30T13:47:40.846219,social
+ACT-490393,TK,9af3c470cb60f5fb343c2604036666a5,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5731877321992171}",2026-04-30T13:47:40.846222,social
+ACT-761521,TK,6a9faf01048ef357f3c71d65011d4672,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7318610969824968}",2026-04-30T13:47:40.846225,social
+ACT-206933,TK,edd8553e3d3c43b4f717141ab4d4abb7,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8441828867646946}",2026-04-30T13:47:40.846227,social
+ACT-483504,TK,8ea6d8f500babba5b8a4f0070d506bf0,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.4718929057261184}",2026-04-30T13:47:40.846230,social
+ACT-437715,TK,5cfd043daf0def2950ccc516bf1e15f1,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8266248781285268}",2026-04-30T13:47:40.846233,social
+ACT-254442,TK,dd2b882dd121a2d7ea3dbf70e25eace0,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.522531348603989}",2026-04-30T13:47:40.846236,social
+ACT-242155,TK,aa657c2b9812ac0c7374762074c623ea,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5952844678877676}",2026-04-30T13:47:40.846239,social
+ACT-874525,TK,c625c507edfb0dc1e42ecddd6922b3b2,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7261336538931027}",2026-04-30T13:47:40.846242,social
+ACT-157101,TK,553b95d22fd614f8585e47273cda4337,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5717560838714821}",2026-04-30T13:47:40.846244,social
+ACT-788594,TK,a12358370804ed4780c773f7dbc68048,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8909714818677661}",2026-04-30T13:47:40.846247,social
+ACT-929458,TK,ae036d94fb986803ecacf8f368385b03,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.4194170441896397}",2026-04-30T13:47:40.846250,social
+ACT-699696,TK,7a58057606f670dded1e55b17ea8cf1c,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.31922246770890755}",2026-04-30T13:47:40.846253,social
+ACT-193991,TK,353c7a328a406dc975be12655d800e2c,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8646328298189907}",2026-04-30T13:47:40.846256,social
+ACT-109914,TK,fc65901dbb30e34ce84a879b45edb1b4,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.6719675200284463}",2026-04-30T13:47:40.846259,social
+ACT-810715,TK,df8aa78731781a38bf3423371b53d985,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8095098870244104}",2026-04-30T13:47:40.846266,social
+ACT-461814,TK,83f916edeef3a7a3b2dde9eac8d5125f,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.763462743093903}",2026-04-30T13:47:40.846269,social
+ACT-315631,TK,dd61b6220d333e791bbb684bc2f4b14d,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7054464900333902}",2026-04-30T13:47:40.846272,social
+ACT-562817,TK,ea203a60acd27cff434a3ce14e06d80d,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8228392584793982}",2026-04-30T13:47:40.846275,social
+ACT-347523,TK,de0469883815be52dd626e3838e61e8b,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8105389449425111}",2026-04-30T13:47:40.846277,social
+ACT-390571,TK,c7a93b46e9afc6e83cbad6610d342efb,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.733047015778133}",2026-04-30T13:47:40.846280,social
+ACT-942261,TK,4cbe6a709885810430d1feb93477c189,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.3412269045444819}",2026-04-30T13:47:40.846283,social
+ACT-254339,TK,009722a166df3dd17f3ab9581b0fe555,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7892593299969493}",2026-04-30T13:47:40.846286,social
+ACT-210214,TK,daa37b2b04651dbf5e52d6cf49219256,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.4091524393897131}",2026-04-30T13:47:40.846288,social
+ACT-575291,TK,0d7d81e0ebb9cf852f750529d2862f81,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.45046969339868337}",2026-04-30T13:47:40.846291,social
+ACT-786530,TK,a0868045dd465355750e219e41a1dc8e,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.4433992100225268}",2026-04-30T13:47:40.846294,social
+ACT-862125,TK,51538f17d5b70d60498ed78a94468522,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5239400665203477}",2026-04-30T13:47:40.846296,social
+ACT-348466,TK,927edfabefbb5df4c5e4bb35ecce23ac,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7632676806486594}",2026-04-30T13:47:40.846299,social
+ACT-538830,TK,ae8dd5dcc75c0c7bc6405327e57d10ec,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7648757019609853}",2026-04-30T13:47:40.846302,social
+ACT-843069,TK,921e0a71c54074fa508e1b4deae17f34,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.5163522473664786}",2026-04-30T13:47:40.846304,social
+ACT-465492,TK,8783f56c9cd0b6d9fbbea22bab1afa2a,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.3232979695488067}",2026-04-30T13:47:40.846307,social
+ACT-988713,TK,e76795242f55be1a76ae7e0d88dd03d1,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.49363454141236685}",2026-04-30T13:47:40.846310,social
+ACT-542832,TK,232ece45b7dc04da95b85b4f75972d14,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.41176397407277526}",2026-04-30T13:47:40.846312,social
+ACT-728908,TK,9ec6e06d85dd6d595ba975027e5de67e,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.8878239979981315}",2026-04-30T13:47:40.846315,social
+ACT-289712,TK,227622f6e7c6c2694c3ebac6156e33a9,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.6093599903037863}",2026-04-30T13:47:40.846318,social
+ACT-556862,TK,dcc407b392a85adc687ab00267f976c5,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.39245474925783147}",2026-04-30T13:47:40.846320,social
+ACT-266343,TK,470facc43ed88b092a62f0223e2227fd,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.3107048866412041}",2026-04-30T13:47:40.846323,social
+ACT-783466,TK,2c1733ab95dbccd8f17045af155d7a07,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7623062659520715}",2026-04-30T13:47:40.846326,social
+ACT-912918,TK,354099d0a90ca44b5ec1ce9fa955dfba,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.44196822775443867}",2026-04-30T13:47:40.846328,social
+ACT-449487,TK,28868143e1441ba809c3fd84f4cfcd0a,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.3696706543491586}",2026-04-30T13:47:40.846331,social
+ACT-348954,TK,4138e037708622dbe1c43034dcda0b4f,social,"{'content': 'Completed spring cleaning activity today', 'sentiment_score': 0.7262916654893063}",2026-04-30T13:47:40.846334,social
+MIG-209414,NY,da5d38074c217c28d37fe583c86c543b,migration,{'new_city': 'TK'},2026-04-30T13:47:40.846902,migration
