@@ -1,0 +1,23 @@
+# ATA - Agent To Agent Framework
+# Python dependencies for Digital Soul Generator and Virtual City Simulator
+
+# Core dependencies
+Flask==3.0.0
+flask-cors==4.0.0
+
+# Terminal dashboard
+rich==13.7.0
+
+# Standard library modules used:
+# - hashlib (for Digital Soul Hash generation)
+# - json (for data serialization)
+# - random (for procedural generation)
+# - csv (for CSV export)
+# - argparse (for command-line interface)
+# - dataclasses (for data structures)
+# - datetime (for timestamp generation)
+# - uuid (for unique identifier generation)
+# - typing (for type hints)
+# - enum (for enumerated types)
+# - threading (for concurrent processing)
+# - queue (for message routing)
