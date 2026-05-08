@@ -1,0 +1,20 @@
+[Unit]
+Description=ATA Soul Agent - Digital Soul Generator
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ata-soul-agent --listen :8081 --db /var/lib/ata/souls.db
+Restart=on-failure
+RestartSec=5
+User=ata
+Group=ata
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/ata
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ata-soul-agent
+
+[Install]
+WantedBy=multi-user.target
