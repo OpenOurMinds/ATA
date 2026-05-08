@@ -1,0 +1,7 @@
+# ATA City Agent Configuration
+listen: ":8082"
+db: "/var/lib/ata/city.db"
+souls_db: "/var/lib/ata/souls.db"
+
+logging:
+  level: info
