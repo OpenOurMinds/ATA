@@ -1,0 +1,16 @@
+# ATA Orchestrator Configuration
+listen: ":8080"
+
+agents:
+  soul:
+    url: "http://127.0.0.1:8081"
+  city:
+    url: "http://127.0.0.1:8082"
+  decision:
+    url: "http://127.0.0.1:8083"
+
+cycle:
+  interval: 60s
+
+logging:
+  level: info
