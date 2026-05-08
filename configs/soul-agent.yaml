@@ -1,0 +1,6 @@
+# ATA Soul Agent Configuration
+listen: ":8081"
+db: "/var/lib/ata/souls.db"
+
+logging:
+  level: info
