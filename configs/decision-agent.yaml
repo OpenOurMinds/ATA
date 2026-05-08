@@ -1,0 +1,7 @@
+# ATA Decision Agent Configuration
+listen: ":8083"
+db: "/var/lib/ata/decisions.db"
+city_db: "/var/lib/ata/city.db"
+
+logging:
+  level: info
