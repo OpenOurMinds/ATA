@@ -1,0 +1,2 @@
+# This directory holds BoltDB databases at runtime.
+# Files here are not committed to git.

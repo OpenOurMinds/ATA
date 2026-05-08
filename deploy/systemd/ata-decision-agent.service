@@ -1,0 +1,20 @@
+[Unit]
+Description=ATA Decision Agent - Autonomous Decision Engine
+After=network.target ata-city-agent.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ata-decision-agent --listen :8083 --db /var/lib/ata/decisions.db --city-db /var/lib/ata/city.db
+Restart=on-failure
+RestartSec=5
+User=ata
+Group=ata
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/ata
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ata-decision-agent
+
+[Install]
+WantedBy=multi-user.target

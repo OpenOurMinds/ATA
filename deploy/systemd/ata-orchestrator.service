@@ -1,0 +1,26 @@
+[Unit]
+Description=ATA Orchestrator - A2A Multi-Agent Controller
+After=network.target ata-soul-agent.service ata-city-agent.service ata-decision-agent.service
+Wants=ata-soul-agent.service ata-city-agent.service ata-decision-agent.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ata-orchestrator \
+    --listen :8080 \
+    --soul-url http://127.0.0.1:8081 \
+    --city-url http://127.0.0.1:8082 \
+    --decision-url http://127.0.0.1:8083 \
+    --cycle-interval 60s
+Restart=on-failure
+RestartSec=5
+User=ata
+Group=ata
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/ata
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ata-orchestrator
+
+[Install]
+WantedBy=multi-user.target
