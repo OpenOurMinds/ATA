@@ -1,2 +1,0 @@
-message_id,sender_id,receiver_id,layer,message_type,priority,content,timestamp,conversation_id,parent_message_id
-MSG-437324,AGENT-001,broadcast,layer1_opened,public_broadcast,2,"{'text': ""Let's coordinate our box-moving task today""}",2026-04-30T16:18:47.245662,,

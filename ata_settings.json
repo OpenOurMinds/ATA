@@ -1,9 +1,0 @@
-{
-  "default_soul_count": 2,
-  "default_workflow_count": 3,
-  "default_activities": 10,
-  "export_format": "2",
-  "auto_save": false,
-  "log_level": "INFO",
-  "dashboard_port": 2
-}
