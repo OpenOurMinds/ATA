@@ -171,8 +171,8 @@ func TestAgentCardProtocolVersion(t *testing.T) {
 	if card.ProtocolVersion == "" {
 		t.Error("protocolVersion must not be empty")
 	}
-	if card.ProtocolVersion != "0.2.0" {
-		t.Errorf("protocolVersion = %q, want 0.2.0", card.ProtocolVersion)
+	if card.ProtocolVersion != "1.0.0" {
+		t.Errorf("protocolVersion = %q, want 1.0.0", card.ProtocolVersion)
 	}
 }
 

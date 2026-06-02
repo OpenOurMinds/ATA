@@ -68,7 +68,7 @@ func NewAgentCard(name, description, url, version string, skills []Skill) AgentC
 		Description:     description,
 		URL:             url,
 		Version:         version,
-		ProtocolVersion: "0.2.0",
+		ProtocolVersion: "1.0.0",
 		Provider: &Provider{
 			Organization: "OpenOurMinds",
 			URL:          "https://github.com/OpenOurMinds/ATA",
