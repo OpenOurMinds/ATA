@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATA Simulation Real-Time Dashboard</title>
+    <meta name="description" content="Real-time time series visualization dashboard for the Agent-to-Agent (A2A) multi-agent simulation engine.">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="header-main">
+                <div class="logo-area">
+                    <span class="logo-icon">🧬</span>
+                    <h1>ATA Multi-Agent Simulation Engine</h1>
+                </div>
+                <div class="system-status">
+                    <span class="status-dot idle" id="status-dot"></span>
+                    <span class="status-text" id="status-text">SYSTEM IDLE</span>
+                </div>
+            </div>
+            <p class="subtitle">Real-Time Conformance, Parameter Drift, and Policy Decision Validation</p>
+        </header>
+
+        <!-- DASHBOARD GRID -->
+        <main class="dashboard-grid">
+            
+            <!-- LEFT PANEL: CONTROLS & PARAMETERS -->
+            <section class="panel control-panel" aria-labelledby="controls-title">
+                <h2 id="controls-title">Simulation Control Panel</h2>
+                
+                <!-- Action Buttons -->
+                <div class="control-actions">
+                    <button id="btn-start" class="btn btn-primary">Start Simulation</button>
+                    <button id="btn-pause" class="btn btn-secondary" disabled>Pause</button>
+                    <button id="btn-reset" class="btn btn-danger">Reset</button>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- Parameters Sliders -->
+                <div class="parameter-sliders">
+                    <h3>Initial Weights & Settings</h3>
+                    
+                    <div class="control-group">
+                        <label for="slider-soul-count">Citizen Count (Souls): <span class="val-display" id="val-soul-count">50</span></label>
+                        <input type="range" id="slider-soul-count" min="10" max="150" value="50" step="5">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-trust">Trust Weight: <span class="val-display" id="val-trust">0.30</span></label>
+                        <input type="range" id="slider-trust" min="0" max="1" value="0.30" step="0.05">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-altruism">Altruism Weight: <span class="val-display" id="val-altruism">0.25</span></label>
+                        <input type="range" id="slider-altruism" min="0" max="1" value="0.25" step="0.05">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-ambition">Ambition Weight: <span class="val-display" id="val-ambition">0.20</span></label>
+                        <input type="range" id="slider-ambition" min="0" max="1" value="0.20" step="0.05">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-curiosity">Curiosity Weight: <span class="val-display" id="val-curiosity">0.15</span></label>
+                        <input type="range" id="slider-curiosity" min="0" max="1" value="0.15" step="0.05">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-fear">Fear Weight: <span class="val-display" id="val-fear">0.10</span></label>
+                        <input type="range" id="slider-fear" min="0" max="1" value="0.10" step="0.05">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-lr">Learning Rate (Optimizer): <span class="val-display" id="val-lr">0.010</span></label>
+                        <input type="range" id="slider-lr" min="0.001" max="0.05" value="0.010" step="0.001">
+                    </div>
+
+                    <div class="control-group">
+                        <label for="slider-delay">Step Delay (s): <span class="val-display" id="val-delay">0.05</span></label>
+                        <input type="range" id="slider-delay" min="0.01" max="0.30" value="0.05" step="0.01">
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT PANEL: DASHBOARD VISUALIZATIONS -->
+            <div class="visualization-area">
+                
+                <!-- KEY METRIC CARDS -->
+                <section class="metrics-bar" aria-label="Key Metrics Summary">
+                    <div class="metric-card">
+                        <span class="metric-label">TIMESTEP</span>
+                        <span class="metric-value" id="metric-step">t--</span>
+                    </div>
+                    <div class="metric-card highlight-indigo">
+                        <span class="metric-label">DEMOCRATIC HEALTH</span>
+                        <span class="metric-value" id="metric-index">0.000</span>
+                    </div>
+                    <div class="metric-card highlight-rose">
+                        <span class="metric-label">COLLAPSE RISK</span>
+                        <span class="metric-value" id="metric-risk">0.000</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-label">DECISIONS TRIGGERED</span>
+                        <span class="metric-value" id="metric-decisions">0</span>
+                    </div>
+                </section>
+
+                <!-- CHARTS ROW 1 -->
+                <div class="charts-row">
+                    <section class="panel chart-panel" aria-labelledby="chart-dem-title">
+                        <h3 id="chart-dem-title">Democratic Index vs. Collapse Risk</h3>
+                        <div class="canvas-wrapper">
+                            <canvas id="chart-democratic-index"></canvas>
+                        </div>
+                        <div class="chart-legend">
+                            <span class="legend-item"><span class="legend-color bg-indigo"></span> Democratic Health</span>
+                            <span class="legend-item"><span class="legend-color bg-rose"></span> Collapse Risk</span>
+                        </div>
+                    </section>
+
+                    <section class="panel chart-panel" aria-labelledby="chart-cohesion-title">
+                        <h3 id="chart-cohesion-title">Social Cohesion vs. Economic Health</h3>
+                        <div class="canvas-wrapper">
+                            <canvas id="chart-social-economic"></canvas>
+                        </div>
+                        <div class="chart-legend">
+                            <span class="legend-item"><span class="legend-color bg-emerald"></span> Social Cohesion</span>
+                            <span class="legend-item"><span class="legend-color bg-cyan"></span> Economic Health</span>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CHARTS ROW 2 (PARAMETER DRIFT / OPTIMIZATION PATH) -->
+                <div class="charts-row">
+                    <section class="panel chart-panel full-width" aria-labelledby="chart-params-title">
+                        <h3 id="chart-params-title">Parameter Weight Drift & Optimization Path</h3>
+                        <div class="canvas-wrapper height-medium">
+                            <canvas id="chart-parameter-drift"></canvas>
+                        </div>
+                        <div class="chart-legend">
+                            <span class="legend-item"><span class="legend-color bg-blue"></span> Trust</span>
+                            <span class="legend-item"><span class="legend-color bg-green"></span> Altruism</span>
+                            <span class="legend-item"><span class="legend-color bg-orange"></span> Ambition</span>
+                            <span class="legend-item"><span class="legend-color bg-purple"></span> Curiosity</span>
+                            <span class="legend-item"><span class="legend-color bg-red"></span> Fear</span>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- BOTTOM ROW: DECISION LOG & CONSOLE -->
+                <div class="logs-row">
+                    <section class="panel list-panel flex-3" aria-labelledby="decision-log-title">
+                        <h3 id="decision-log-title">Active Policy Decision Feed</h3>
+                        <div class="decision-feed-header">
+                            <span class="col-id">ID</span>
+                            <span class="col-type">Type</span>
+                            <span class="col-pri">Pri</span>
+                            <span class="col-action">Recommended Action</span>
+                            <span class="col-rationale">Rationale / Rule Trigger</span>
+                        </div>
+                        <div class="list-wrapper" id="decision-feed-list">
+                            <!-- Injected dynamically -->
+                            <div class="empty-feed-placeholder">No policy decisions triggered yet. Start the simulation.</div>
+                        </div>
+                    </section>
+
+                    <section class="panel list-panel flex-2" aria-labelledby="console-log-title">
+                        <h3 id="console-log-title">System Console</h3>
+                        <div class="console-wrapper" id="console-log">
+                            <div class="console-line text-muted">[system] Dashboard initialized. Awaiting connection...</div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
