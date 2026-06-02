@@ -94,6 +94,6 @@ Before any build is considered a release candidate, it must satisfy four distinc
 ```
 
 1. **Unit & Race Tests**: Verify logical correctness with race detection (`go test -race ./internal/...`).
-2. **Protocol Conformance**: Verify that the A2A API conforms to version `0.2.0` (`go test ./test/...`).
+2. **Protocol Conformance**: Verify that the A2A API conforms to version `1.0.0` (`go test ./test/...`).
 3. **Resilience scenarios**: Run scenario tests simulating client timeout, server down, and data corruption.
 4. **Build Strategy Verification**: Check that compilation flags, version-stamping parameters, configuration defaults, and systemd definitions match target specifications.
