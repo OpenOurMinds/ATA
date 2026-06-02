@@ -4,7 +4,7 @@ import json
 import csv
 import os
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Config
 seed_val = 42
@@ -167,7 +167,7 @@ def run_simulation(souls):
                 "type": act["type"],
                 "riskLevel": act["risk"],
                 "description": act["description"],
-                "timestamp": datetime.utcnow().isoformat() + "Z"
+                "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
             },
             "sensorData": {
                 "confidence": random.uniform(0.7, 1.0)
@@ -182,7 +182,7 @@ def run_simulation(souls):
             "textContent": f"[{citizen['archetype']}] {act['description']}",
             "archetype": citizen["archetype"],
             "sentimentScore": sentiment,
-            "timestamp": datetime.utcnow().isoformat() + "Z"
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         }
         posts.append(post)
         
@@ -227,7 +227,7 @@ def evaluate_decisions(health, params):
             "action": "Increase social cohesion activities by 20%",
             "rationale": "Rule \"Low Democratic Index\" triggered",
             "expectedImpact": {"democraticIndex": 0.1, "socialCohesion": 0.15},
-            "timestamp": datetime.utcnow().isoformat() + "Z"
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         })
     # RULE-002: High Collapse Risk
     if health["dataSufficient"] and health["collapseRisk"] > 0.6:
@@ -238,7 +238,7 @@ def evaluate_decisions(health, params):
             "action": "Activate population collapse hedge",
             "rationale": "Rule \"High Collapse Risk\" triggered",
             "expectedImpact": {"collapseRisk": -0.2, "democraticIndex": 0.05},
-            "timestamp": datetime.utcnow().isoformat() + "Z"
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         })
     # RULE-003: Low Economic Health
     if health["dataSufficient"] and health["economicHealth"] < 0.3:
@@ -249,7 +249,7 @@ def evaluate_decisions(health, params):
             "action": "Reallocate 10% resources to economic stimulation",
             "rationale": "Rule \"Low Economic Health\" triggered",
             "expectedImpact": {"economicHealth": 0.1},
-            "timestamp": datetime.utcnow().isoformat() + "Z"
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         })
     return decisions
 
@@ -328,7 +328,7 @@ def main():
             "curiosity_weight": params["curiosityWeight"],
             "fear_weight": params["fearWeight"],
             "decisions_count": len(decisions),
-            "timestamp": datetime.utcnow().isoformat() + "Z"
+            "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
         }
         records.append(record)
         
