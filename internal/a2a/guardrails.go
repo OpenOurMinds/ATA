@@ -6,6 +6,7 @@ package a2a
 
 import (
 	"fmt"
+	"math"
 	"regexp"
 	"strings"
 	"sync"
@@ -29,6 +30,9 @@ var DefaultInjectionPatterns = []InjectionPattern{
 	{Name: "command_injection", Pattern: regexp.MustCompile(`(?i)(rm\s+-rf|drop\s+table|delete\s+all|shell_exec|exec\s*\(|os\.system)`)},
 	{Name: "data_exfil", Pattern: regexp.MustCompile(`(?i)(send|post|upload|exfiltrate)\s+.*(http|https|ftp)`)},
 	{Name: "jailbreak", Pattern: regexp.MustCompile(`(?i)(DAN|do\s+anything\s+now|developer\s+mode|act\s+as\s+if\s+no\s+restrictions)`)},
+	{Name: "sqli", Pattern: regexp.MustCompile(`(?i)(union\s+select|select\s+.*\s+from|insert\s+into|delete\s+from|drop\s+table|shutdown\b|'\s*or\s*'1'\s*=\s*'1|"\s*or\s*"1"\s*=\s*"1|'\s*or\s*true\b|--\s*$)`)},
+	{Name: "path_traversal", Pattern: regexp.MustCompile(`(?i)(\.\.\/|\.\.\\|/etc/passwd|/etc/shadow|/windows/system32|/win\.ini|boot\.ini)`)},
+	{Name: "xss", Pattern: regexp.MustCompile(`(?i)(<script\b|javascript:|onerror\s*=|onload\s*=|alert\s*\()|\bscript\b`)},
 }
 
 // PIIPattern matches common PII formats for redaction.
@@ -302,4 +306,52 @@ func (acl *ToolACL) CheckAccess(agentID, toolID string, scope ToolScope) ToolAcc
 		}
 	}
 	return ToolAccessResult{Allowed: true}
+}
+
+// IPRateLimiter is an IP-based token bucket rate limiter for DoS protection.
+type IPRateLimiter struct {
+	mu       sync.Mutex
+	buckets  map[string]*tokenBucket
+	rate     float64 // tokens per second
+	capacity float64 // max tokens
+}
+
+type tokenBucket struct {
+	tokens     float64
+	lastUpdate time.Time
+}
+
+// NewIPRateLimiter creates a rate limiter with the given rate (tokens/sec) and capacity.
+func NewIPRateLimiter(rate float64, capacity int64) *IPRateLimiter {
+	return &IPRateLimiter{
+		buckets:  make(map[string]*tokenBucket),
+		rate:     rate,
+		capacity: float64(capacity),
+	}
+}
+
+// Allow checks if the request from the given IP is allowed.
+func (rl *IPRateLimiter) Allow(ip string) bool {
+	rl.mu.Lock()
+	defer rl.mu.Unlock()
+
+	now := time.Now().UTC()
+	bucket, ok := rl.buckets[ip]
+	if !ok {
+		rl.buckets[ip] = &tokenBucket{
+			tokens:     rl.capacity - 1.0, // consume 1 token
+			lastUpdate: now,
+		}
+		return true
+	}
+
+	elapsed := now.Sub(bucket.lastUpdate).Seconds()
+	bucket.tokens = math.Min(rl.capacity, bucket.tokens+elapsed*rl.rate)
+	bucket.lastUpdate = now
+
+	if bucket.tokens >= 1.0 {
+		bucket.tokens -= 1.0
+		return true
+	}
+	return false
 }
