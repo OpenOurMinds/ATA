@@ -40,6 +40,14 @@ func main() {
 	defer store.Close()
 
 	gen := soul.NewGenerator(time.Now().UnixNano())
+	demographicsCSV := "data/demographics_source.csv"
+	if _, err := os.Stat(demographicsCSV); err == nil {
+		if err := gen.LoadDemographics(demographicsCSV); err != nil {
+			logger.Error("failed to load demographics dataset", "error", err)
+		} else {
+			logger.Info("successfully loaded demographics dataset", "path", demographicsCSV)
+		}
+	}
 
 	// Build Agent Card.
 	card := a2a.NewAgentCard(
