@@ -71,7 +71,7 @@ func main() {
 		task.TransitionTo(a2a.TaskStateWorking, "starting cycle")
 
 		// Run one orchestration cycle.
-		err := runCycle(client, *soulAgentURL, *cityAgentURL, *decisionAgentURL, logger)
+		err = runCycle(client, *soulAgentURL, *cityAgentURL, *decisionAgentURL, logger)
 		if err != nil {
 			task.TransitionTo(a2a.TaskStateFailed, err.Error())
 			return a2a.TaskResultFromTask(task), nil
