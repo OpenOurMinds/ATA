@@ -2,6 +2,9 @@ package a2a
 
 import (
 	"bytes"
+	"crypto/hmac"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -36,6 +39,7 @@ type Client struct {
 	logger      *slog.Logger
 	retry       RetryConfig
 	bearerToken string
+	hmacSecret  []byte
 	localRoutes map[string]http.Handler // Map from base URL / prefix to HTTP handler.
 }
 
@@ -66,6 +70,11 @@ func (c *Client) SetRetryConfig(cfg RetryConfig) {
 // SetBearerToken sets the OAuth 2.0 Bearer token for all requests.
 func (c *Client) SetBearerToken(token string) {
 	c.bearerToken = token
+}
+
+// SetHMACSecret configures a shared secret key for signing payload bodies.
+func (c *Client) SetHMACSecret(secret []byte) {
+	c.hmacSecret = secret
 }
 
 // DiscoverAgent fetches the Agent Card from a remote agent.
@@ -153,6 +162,10 @@ func (c *Client) doTaskRPC(agentURL string, req *Request) (*TaskResult, error) {
 			if c.bearerToken != "" {
 				httpReq.Header.Set("Authorization", "Bearer "+c.bearerToken)
 			}
+			if len(c.hmacSecret) > 0 {
+				sig := HMACSign(body, c.hmacSecret)
+				httpReq.Header.Set("X-A2A-Signature", sig)
+			}
 
 			handler.ServeHTTP(w, httpReq)
 			respBody = w.body.Bytes()
@@ -164,6 +177,10 @@ func (c *Client) doTaskRPC(agentURL string, req *Request) (*TaskResult, error) {
 			httpReq.Header.Set("Content-Type", "application/json")
 			if c.bearerToken != "" {
 				httpReq.Header.Set("Authorization", "Bearer "+c.bearerToken)
+			}
+			if len(c.hmacSecret) > 0 {
+				sig := HMACSign(body, c.hmacSecret)
+				httpReq.Header.Set("X-A2A-Signature", sig)
 			}
 
 			httpResp, err := c.httpClient.Do(httpReq)
@@ -240,4 +257,22 @@ func (w *localResponseWriter) Write(b []byte) (int, error) {
 
 func (w *localResponseWriter) WriteHeader(statusCode int) {
 	w.code = statusCode
+}
+
+// HMACSign generates a hex-encoded HMAC-SHA256 signature for the payload.
+func HMACSign(payload []byte, secret []byte) string {
+	h := hmac.New(sha256.New, secret)
+	h.Write(payload)
+	return hex.EncodeToString(h.Sum(nil))
+}
+
+// VerifyHMAC verifies a hex-encoded HMAC-SHA256 signature for the payload.
+func VerifyHMAC(payload []byte, signature string, secret []byte) bool {
+	expectedSig := HMACSign(payload, secret)
+	expectedBytes, err1 := hex.DecodeString(expectedSig)
+	actualBytes, err2 := hex.DecodeString(signature)
+	if err1 != nil || err2 != nil {
+		return false
+	}
+	return hmac.Equal(expectedBytes, actualBytes)
 }
