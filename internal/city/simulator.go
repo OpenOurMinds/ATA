@@ -5,9 +5,12 @@
 package city
 
 import (
+	"encoding/csv"
 	"fmt"
 	"math"
 	"math/rand"
+	"os"
+	"strconv"
 	"time"
 
 	"github.com/OpenOurMinds/ATA/internal/soul"
@@ -82,14 +85,76 @@ var activityTypes = []struct {
 	{"sports", "MEDIUM", "Playing basketball"},
 }
 
+// SentimentTemplate represents a sentiment/activity template from the dataset.
+type SentimentTemplate struct {
+	ActivityType        string
+	ActivityDescription string
+	RiskLevel           string
+	Archetype           string
+	TextContent         string
+	SentimentScore      float64
+}
+
 // Simulator runs city simulation cycles.
 type Simulator struct {
-	rng *rand.Rand
+	rng             *rand.Rand
+	loadedTemplates []SentimentTemplate
+	archetypeMap    map[string][]SentimentTemplate
+	useDataset      bool
 }
 
 // NewSimulator creates a city simulator.
 func NewSimulator(seed int64) *Simulator {
-	return &Simulator{rng: rand.New(rand.NewSource(seed))}
+	return &Simulator{
+		rng:          rand.New(rand.NewSource(seed)),
+		archetypeMap: make(map[string][]SentimentTemplate),
+	}
+}
+
+// LoadSentimentData loads social media sentiment templates from a CSV file.
+func (s *Simulator) LoadSentimentData(path string) error {
+	file, err := os.Open(path)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	records, err := reader.ReadAll()
+	if err != nil {
+		return err
+	}
+
+	if len(records) <= 1 {
+		return fmt.Errorf("empty CSV or only headers present")
+	}
+
+	var templates []SentimentTemplate
+	archMap := make(map[string][]SentimentTemplate)
+
+	for i := 1; i < len(records); i++ {
+		row := records[i]
+		if len(row) < 6 {
+			continue
+		}
+
+		score, _ := strconv.ParseFloat(row[5], 64)
+		tmpl := SentimentTemplate{
+			ActivityType:        row[0],
+			ActivityDescription: row[1],
+			RiskLevel:           row[2],
+			Archetype:           row[3],
+			TextContent:         row[4],
+			SentimentScore:      score,
+		}
+		templates = append(templates, tmpl)
+		archMap[tmpl.Archetype] = append(archMap[tmpl.Archetype], tmpl)
+	}
+
+	s.loadedTemplates = templates
+	s.archetypeMap = archMap
+	s.useDataset = len(templates) > 0
+	return nil
 }
 
 // RunCycle executes one simulation cycle: observe → generate posts → analyze.
@@ -115,14 +180,27 @@ func (s *Simulator) RunCycle(souls []soul.Soul) SimulationResult {
 func (s *Simulator) observe(souls []soul.Soul) []Observation {
 	observations := make([]Observation, 0, len(souls))
 	for _, citizen := range souls {
-		act := activityTypes[s.rng.Intn(len(activityTypes))]
+		var actType, risk, desc string
+		if s.useDataset && len(s.archetypeMap[string(citizen.Archetype)]) > 0 {
+			templates := s.archetypeMap[string(citizen.Archetype)]
+			tmpl := templates[s.rng.Intn(len(templates))]
+			actType = tmpl.ActivityType
+			risk = tmpl.RiskLevel
+			desc = tmpl.ActivityDescription
+		} else {
+			act := activityTypes[s.rng.Intn(len(activityTypes))]
+			actType = act.Type
+			risk = act.Risk
+			desc = act.Description
+		}
+
 		obs := Observation{
 			SessionID: fmt.Sprintf("SR-%06d", s.rng.Intn(999999)),
 			CitizenID: citizen.CitizenID,
 			Activity: Activity{
-				Type:        act.Type,
-				RiskLevel:   act.Risk,
-				Description: act.Description,
+				Type:        actType,
+				RiskLevel:   risk,
+				Description: desc,
 				Timestamp:   time.Now().UTC(),
 			},
 			SensorData: map[string]float64{
@@ -146,11 +224,36 @@ func (s *Simulator) generatePosts(obs []Observation, souls []soul.Soul) []SNSPos
 		if !ok {
 			continue
 		}
-		sentiment := (citizen.Emotions.Trust + citizen.Emotions.Altruism) / 2
+
+		var textContent string
+		var sentiment float64
+		found := false
+
+		if s.useDataset && len(s.archetypeMap[string(citizen.Archetype)]) > 0 {
+			templates := s.archetypeMap[string(citizen.Archetype)]
+			var candidates []SentimentTemplate
+			for _, tmpl := range templates {
+				if tmpl.ActivityDescription == o.Activity.Description {
+					candidates = append(candidates, tmpl)
+				}
+			}
+			if len(candidates) > 0 {
+				tmpl := candidates[s.rng.Intn(len(candidates))]
+				textContent = tmpl.TextContent
+				sentiment = tmpl.SentimentScore
+				found = true
+			}
+		}
+
+		if !found {
+			sentiment = (citizen.Emotions.Trust + citizen.Emotions.Altruism) / 2
+			textContent = fmt.Sprintf("[%s] %s", citizen.Archetype, o.Activity.Description)
+		}
+
 		post := SNSPost{
 			PostID:         fmt.Sprintf("POST-%06d", s.rng.Intn(999999)),
 			CitizenID:      o.CitizenID,
-			TextContent:    fmt.Sprintf("[%s] %s", citizen.Archetype, o.Activity.Description),
+			TextContent:    textContent,
 			Archetype:      string(citizen.Archetype),
 			SentimentScore: sentiment,
 			Timestamp:      time.Now().UTC(),
