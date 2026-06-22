@@ -8,6 +8,7 @@ import (
 	"log/slog"
 	"math"
 	"net/http"
+	"strings"
 	"time"
 )
 
@@ -31,19 +32,30 @@ func DefaultRetryConfig() RetryConfig {
 
 // Client is an A2A protocol client that sends requests to remote agents.
 type Client struct {
-	httpClient *http.Client
-	logger     *slog.Logger
-	retry      RetryConfig
-	bearerToken string // OAuth 2.0 Bearer token for authenticated requests.
+	httpClient  *http.Client
+	logger      *slog.Logger
+	retry       RetryConfig
+	bearerToken string
+	localRoutes map[string]http.Handler // Map from base URL / prefix to HTTP handler.
 }
 
 // NewClient creates a new A2A client with default retry config.
 func NewClient(logger *slog.Logger) *Client {
 	return &Client{
-		httpClient: &http.Client{Timeout: 30 * time.Second},
-		logger:     logger,
-		retry:      DefaultRetryConfig(),
+		httpClient:  &http.Client{Timeout: 30 * time.Second},
+		logger:      logger,
+		retry:       DefaultRetryConfig(),
+		localRoutes: make(map[string]http.Handler),
 	}
+}
+
+// RegisterLocalRoute registers an in-process http.Handler for a base URL.
+// Any requests sent via this client to URLs matching this base URL will bypass the network stack.
+func (c *Client) RegisterLocalRoute(baseURL string, handler http.Handler) {
+	if c.localRoutes == nil {
+		c.localRoutes = make(map[string]http.Handler)
+	}
+	c.localRoutes[baseURL] = handler
 }
 
 // SetRetryConfig overrides the default retry configuration.
@@ -118,33 +130,62 @@ func (c *Client) doTaskRPC(agentURL string, req *Request) (*TaskResult, error) {
 
 		c.logger.Debug("a2a rpc", "method", req.Method, "url", agentURL, "attempt", attempt)
 
-		httpReq, err := http.NewRequest("POST", agentURL, bytes.NewReader(body))
-		if err != nil {
-			return nil, fmt.Errorf("create request: %w", err)
-		}
-		httpReq.Header.Set("Content-Type", "application/json")
-		if c.bearerToken != "" {
-			httpReq.Header.Set("Authorization", "Bearer "+c.bearerToken)
+		var respBody []byte
+
+		// Check if we have an in-process route matching the agentURL.
+		var handler http.Handler
+		if c.localRoutes != nil {
+			for baseURL, h := range c.localRoutes {
+				if strings.HasPrefix(agentURL, baseURL) {
+					handler = h
+					break
+				}
+			}
 		}
 
-		httpResp, err := c.httpClient.Do(httpReq)
-		if err != nil {
-			lastErr = fmt.Errorf("rpc to %s: %w", agentURL, err)
-			continue
-		}
+		if handler != nil {
+			w := newLocalResponseWriter()
+			httpReq, err := http.NewRequest("POST", agentURL, bytes.NewReader(body))
+			if err != nil {
+				return nil, fmt.Errorf("create request: %w", err)
+			}
+			httpReq.Header.Set("Content-Type", "application/json")
+			if c.bearerToken != "" {
+				httpReq.Header.Set("Authorization", "Bearer "+c.bearerToken)
+			}
 
-		// Retry on 503 Service Unavailable.
-		if httpResp.StatusCode == http.StatusServiceUnavailable && c.retry.RetryOn503 {
+			handler.ServeHTTP(w, httpReq)
+			respBody = w.body.Bytes()
+		} else {
+			httpReq, err := http.NewRequest("POST", agentURL, bytes.NewReader(body))
+			if err != nil {
+				return nil, fmt.Errorf("create request: %w", err)
+			}
+			httpReq.Header.Set("Content-Type", "application/json")
+			if c.bearerToken != "" {
+				httpReq.Header.Set("Authorization", "Bearer "+c.bearerToken)
+			}
+
+			httpResp, err := c.httpClient.Do(httpReq)
+			if err != nil {
+				lastErr = fmt.Errorf("rpc to %s: %w", agentURL, err)
+				continue
+			}
+
+			// Retry on 503 Service Unavailable.
+			if httpResp.StatusCode == http.StatusServiceUnavailable && c.retry.RetryOn503 {
+				httpResp.Body.Close()
+				lastErr = fmt.Errorf("service unavailable (503) from %s", agentURL)
+				continue
+			}
+
+			var readErr error
+			respBody, readErr = io.ReadAll(httpResp.Body)
 			httpResp.Body.Close()
-			lastErr = fmt.Errorf("service unavailable (503) from %s", agentURL)
-			continue
-		}
-
-		respBody, err := io.ReadAll(httpResp.Body)
-		httpResp.Body.Close()
-		if err != nil {
-			lastErr = fmt.Errorf("read response: %w", err)
-			continue
+			if readErr != nil {
+				lastErr = fmt.Errorf("read response: %w", readErr)
+				continue
+			}
 		}
 
 		var resp Response
@@ -172,4 +213,31 @@ func (c *Client) backoffDelay(attempt int) time.Duration {
 		delay = c.retry.MaxDelay
 	}
 	return delay
+}
+
+// localResponseWriter mocks http.ResponseWriter for zero-network in-process communication.
+type localResponseWriter struct {
+	header http.Header
+	code   int
+	body   *bytes.Buffer
+}
+
+func newLocalResponseWriter() *localResponseWriter {
+	return &localResponseWriter{
+		header: make(http.Header),
+		code:   http.StatusOK,
+		body:   new(bytes.Buffer),
+	}
+}
+
+func (w *localResponseWriter) Header() http.Header {
+	return w.header
+}
+
+func (w *localResponseWriter) Write(b []byte) (int, error) {
+	return w.body.Write(b)
+}
+
+func (w *localResponseWriter) WriteHeader(statusCode int) {
+	w.code = statusCode
 }
