@@ -3,7 +3,9 @@ package a2a
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"log/slog"
+	"net"
 	"net/http"
 	"strings"
 	"time"
@@ -52,6 +54,9 @@ type Server struct {
 	scanIncoming   bool     // Enable semantic guardrail scanning.
 	stripPII        bool     // Enable PII redaction on outbound messages.
 	toolACL        *ToolACL // Zero-trust tool access control.
+	allowedSubnets []*net.IPNet
+	rateLimiter    *IPRateLimiter
+	hmacSecret     []byte
 	logger         *slog.Logger
 	mux            *http.ServeMux
 }
@@ -111,6 +116,70 @@ func (s *Server) SetToolACL(acl *ToolACL) {
 	s.toolACL = acl
 }
 
+// SetNetworkACL defines a list of CIDR subnets allowed to access this server.
+// If not nil or empty, any requests from IPs not in these subnets are rejected.
+func (s *Server) SetNetworkACL(allowedCIDRs []string) error {
+	var subnets []*net.IPNet
+	for _, cidr := range allowedCIDRs {
+		if !strings.Contains(cidr, "/") {
+			if strings.Contains(cidr, ":") {
+				cidr = cidr + "/128"
+			} else {
+				cidr = cidr + "/32"
+			}
+		}
+		_, ipNet, err := net.ParseCIDR(cidr)
+		if err != nil {
+			return fmt.Errorf("invalid CIDR %q: %w", cidr, err)
+		}
+		subnets = append(subnets, ipNet)
+	}
+	s.allowedSubnets = subnets
+	return nil
+}
+
+// SetRateLimit configures the IP rate limiter.
+func (s *Server) SetRateLimit(rate float64, capacity int64) {
+	s.rateLimiter = NewIPRateLimiter(rate, capacity)
+}
+
+// SetHMACSecret configures the shared secret key for payload signature verification.
+func (s *Server) SetHMACSecret(secret []byte) {
+	s.hmacSecret = secret
+}
+
+// getClientIP extracts the client IP address from request headers or RemoteAddr.
+func getClientIP(r *http.Request) string {
+	for _, header := range []string{"X-Forwarded-For", "X-Real-IP"} {
+		if val := r.Header.Get(header); val != "" {
+			parts := strings.Split(val, ",")
+			return strings.TrimSpace(parts[0])
+		}
+	}
+	host, _, err := net.SplitHostPort(r.RemoteAddr)
+	if err != nil {
+		return r.RemoteAddr
+	}
+	return host
+}
+
+// ipAllowed checks if the given IP address is allowed by the NACL whitelist.
+func (s *Server) ipAllowed(ipStr string) bool {
+	if len(s.allowedSubnets) == 0 {
+		return true
+	}
+	ip := net.ParseIP(ipStr)
+	if ip == nil {
+		return false
+	}
+	for _, subnet := range s.allowedSubnets {
+		if subnet.Contains(ip) {
+			return true
+		}
+	}
+	return false
+}
+
 // SkillAuthorized checks if the given skill ID is listed in this agent's card.
 // Returns false if the skill is not advertised, preventing unauthorized tool access.
 func (s *Server) SkillAuthorized(skillID string) bool {
@@ -167,6 +236,24 @@ func (s *Server) handleHealth(w http.ResponseWriter, r *http.Request) {
 // handleRPC processes incoming JSON-RPC 2.0 requests.
 // Routes to synchronous handlers or SSE stream handlers.
 func (s *Server) handleRPC(w http.ResponseWriter, r *http.Request) {
+	clientIP := getClientIP(r)
+
+	// 1. Network ACL Verification (NACL)
+	if !s.ipAllowed(clientIP) {
+		s.logger.Warn("security audit: blocked unauthorized client IP", "ip", clientIP)
+		w.WriteHeader(http.StatusForbidden)
+		s.writeResponse(w, ErrorResponse(nil, ErrCodeAuthRequired, "NACL blocked request"))
+		return
+	}
+
+	// 2. IP Rate Limiter
+	if s.rateLimiter != nil && !s.rateLimiter.Allow(clientIP) {
+		s.logger.Warn("security audit: rate limit exceeded", "ip", clientIP)
+		w.WriteHeader(http.StatusTooManyRequests)
+		s.writeResponse(w, ErrorResponse(nil, ErrCodeInvalidRequest, "rate limit exceeded"))
+		return
+	}
+
 	// HTTPS enforcement: reject plain HTTP in production.
 	if s.requireHTTPS && r.TLS == nil && r.Header.Get("X-Forwarded-Proto") != "https" {
 		w.WriteHeader(http.StatusForbidden)
@@ -182,8 +269,25 @@ func (s *Server) handleRPC(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	bodyBytes, err := io.ReadAll(r.Body)
+	if err != nil {
+		s.writeResponse(w, ErrorResponse(nil, ErrCodeParseError, "failed to read body"))
+		return
+	}
+
+	// 3. HMAC Verification
+	if len(s.hmacSecret) > 0 {
+		sig := r.Header.Get("X-A2A-Signature")
+		if sig == "" || !VerifyHMAC(bodyBytes, sig, s.hmacSecret) {
+			s.logger.Warn("security audit: invalid payload signature", "ip", clientIP)
+			w.WriteHeader(http.StatusUnauthorized)
+			s.writeResponse(w, ErrorResponse(nil, ErrCodeAuthRequired, "invalid signature"))
+			return
+		}
+	}
+
 	var req Request
-	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+	if err := json.Unmarshal(bodyBytes, &req); err != nil {
 		s.writeResponse(w, ErrorResponse(nil, ErrCodeParseError, "parse error"))
 		return
 	}
