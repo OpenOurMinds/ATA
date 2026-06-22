@@ -41,6 +41,14 @@ func main() {
 	defer store.Close()
 
 	sim := city.NewSimulator(time.Now().UnixNano())
+	sentimentCSV := "data/social_media_sentiment.csv"
+	if _, err := os.Stat(sentimentCSV); err == nil {
+		if err := sim.LoadSentimentData(sentimentCSV); err != nil {
+			logger.Error("failed to load sentiment dataset", "error", err)
+		} else {
+			logger.Info("successfully loaded sentiment dataset", "path", sentimentCSV)
+		}
+	}
 
 	card := a2a.NewAgentCard(
 		"ATA City Agent",
