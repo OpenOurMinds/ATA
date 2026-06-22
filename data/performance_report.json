@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-06-22T01:10:51Z",
+  "goVersion": "go1.26.4",
+  "scalability": [
+    {
+      "populationSize": 50,
+      "generationTimeMs": 82.259,
+      "simulationTimeMs": 12.916,
+      "closedLoopTimeMs": 95.19,
+      "allocatedMb": 46.266998291015625,
+      "gcRuns": 13
+    },
+    {
+      "populationSize": 100,
+      "generationTimeMs": 66.379,
+      "simulationTimeMs": 5.263,
+      "closedLoopTimeMs": 71.655,
+      "allocatedMb": 47.498687744140625,
+      "gcRuns": 13
+    },
+    {
+      "populationSize": 500,
+      "generationTimeMs": 64.945,
+      "simulationTimeMs": 9.083,
+      "closedLoopTimeMs": 74.045,
+      "allocatedMb": 57.51152038574219,
+      "gcRuns": 16
+    },
+    {
+      "populationSize": 1000,
+      "generationTimeMs": 64.927,
+      "simulationTimeMs": 14.909,
+      "closedLoopTimeMs": 79.851,
+      "allocatedMb": 69.8541259765625,
+      "gcRuns": 18
+    },
+    {
+      "populationSize": 5000,
+      "generationTimeMs": 65.535,
+      "simulationTimeMs": 58.561,
+      "closedLoopTimeMs": 124.112,
+      "allocatedMb": 169.5643539428711,
+      "gcRuns": 27
+    }
+  ],
+  "randomSimStats": {
+    "avgDemocraticIndex": 0.5493001223656386,
+    "stdDemocraticIndex": 0.012285923718766875,
+    "avgCollapseRisk": 0.4506998776343613,
+    "stdCollapseRisk": 0.012285923718766871
+  },
+  "datasetSimStats": {
+    "avgDemocraticIndex": 0.6311981985000003,
+    "stdDemocraticIndex": 0.012118808237732094,
+    "avgCollapseRisk": 0.3688018014999998,
+    "stdCollapseRisk": 0.012118808237732094
+  }
+}
