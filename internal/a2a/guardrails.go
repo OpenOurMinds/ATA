@@ -27,7 +27,7 @@ var DefaultInjectionPatterns = []InjectionPattern{
 	{Name: "system_override", Pattern: regexp.MustCompile(`(?i)(ignore|forget|disregard)\s+(all\s+)?(previous|prior|above|your)\s+(instructions?|rules?|prompts?|safety)`)},
 	{Name: "role_hijack", Pattern: regexp.MustCompile(`(?i)you\s+are\s+now\s+(a|an)\s+`)},
 	{Name: "command_injection", Pattern: regexp.MustCompile(`(?i)(rm\s+-rf|drop\s+table|delete\s+all|shell_exec|exec\s*\(|os\.system)`)},
-	{Name: "data_exfil", Pattern: regexp.MustCompile(`(?i)(send|post|upload|exfiltrate)\s+(to|all|the)\s+(http|https|ftp)`)},
+	{Name: "data_exfil", Pattern: regexp.MustCompile(`(?i)(send|post|upload|exfiltrate)\s+.*(http|https|ftp)`)},
 	{Name: "jailbreak", Pattern: regexp.MustCompile(`(?i)(DAN|do\s+anything\s+now|developer\s+mode|act\s+as\s+if\s+no\s+restrictions)`)},
 }
 
