@@ -31,7 +31,7 @@ var DefaultInjectionPatterns = []InjectionPattern{
 	{Name: "data_exfil", Pattern: regexp.MustCompile(`(?i)(send|post|upload|exfiltrate)\s+.*(http|https|ftp)`)},
 	{Name: "jailbreak", Pattern: regexp.MustCompile(`(?i)(DAN|do\s+anything\s+now|developer\s+mode|act\s+as\s+if\s+no\s+restrictions)`)},
 	{Name: "sqli", Pattern: regexp.MustCompile(`(?i)(union\s+select|select\s+.*\s+from|insert\s+into|delete\s+from|drop\s+table|shutdown\b|'\s*or\s*'1'\s*=\s*'1|"\s*or\s*"1"\s*=\s*"1|'\s*or\s*true\b|--\s*$)`)},
-	{Name: "path_traversal", Pattern: regexp.MustCompile(`(?i)(\.\.\/|\.\.\\|/etc/passwd|/etc/shadow|/windows/system32|/win\.ini|boot\.ini)`)},
+	{Name: "path_traversal", Pattern: regexp.MustCompile(`(?i)(\.\.\/|\.\.\\|/etc/passwd|/etc/shadow|windows[/\\]system32|win\.ini|boot\.ini)`)},
 	{Name: "xss", Pattern: regexp.MustCompile(`(?i)(<script\b|javascript:|onerror\s*=|onload\s*=|alert\s*\()|\bscript\b`)},
 }
 
