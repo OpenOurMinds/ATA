@@ -12,6 +12,10 @@
 package test
 
 import (
+	"io"
+	"log/slog"
+	"net/http"
+	"net/http/httptest"
 	"strings"
 	"testing"
 	"time"
@@ -373,5 +377,150 @@ func TestDefense_BudgetReset(t *testing.T) {
 	}
 	if budget.RepeatCount != 0 {
 		t.Errorf("repeat count should be 0, got %d", budget.RepeatCount)
+	}
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 🛡️ CCNP ENTERPRISE SECURITY DEFENSE TESTS
+// ═══════════════════════════════════════════════════════════════════
+
+func TestRedTeam_SQLInjection_Detection(t *testing.T) {
+	sqliAttacks := []string{
+		"SELECT * FROM users WHERE username = 'admin' UNION SELECT null, password FROM accounts",
+		"1' OR '1'='1",
+		"admin' OR true --",
+		"DROP TABLE digital_souls;",
+	}
+	for _, attack := range sqliAttacks {
+		result := a2a.ScanForInjection(attack)
+		if result.Safe {
+			t.Errorf("CRITICAL: SQL injection not detected: %q", attack)
+		}
+	}
+}
+
+func TestRedTeam_PathTraversal_Detection(t *testing.T) {
+	traversalAttacks := []string{
+		"../../../../etc/passwd",
+		"C:\\Windows\\system32\\config\\SAM",
+		"..\\..\\boot.ini",
+	}
+	for _, attack := range traversalAttacks {
+		result := a2a.ScanForInjection(attack)
+		if result.Safe {
+			t.Errorf("CRITICAL: Path traversal not detected: %q", attack)
+		}
+	}
+}
+
+func TestRedTeam_XSS_Detection(t *testing.T) {
+	xssAttacks := []string{
+		"<script>alert('pwned')</script>",
+		"javascript:alert(document.cookie)",
+		"<img src=x onerror=alert(1)>",
+	}
+	for _, attack := range xssAttacks {
+		result := a2a.ScanForInjection(attack)
+		if result.Safe {
+			t.Errorf("CRITICAL: XSS not detected: %q", attack)
+		}
+	}
+}
+
+func TestCCNP_NetworkACL_Blocking(t *testing.T) {
+	logger := slog.New(slog.NewTextHandler(io.Discard, nil))
+	card := a2a.NewAgentCard("SecureAgent", "", "", "1.0", nil)
+	server := a2a.NewServer(card, logger)
+
+	// Whitelist 192.168.1.0/24 (loopback requests should be blocked)
+	err := server.SetNetworkACL([]string{"192.168.1.0/24"})
+	if err != nil {
+		t.Fatalf("failed to set NACL: %v", err)
+	}
+
+	ts := httptest.NewServer(server.Handler())
+	defer ts.Close()
+
+	body := `{"jsonrpc":"2.0","method":"tasks/get","params":{"id":"x"},"id":1}`
+	resp, err := http.Post(ts.URL, "application/json", strings.NewReader(body))
+	if err != nil {
+		t.Fatalf("POST failed: %v", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusForbidden {
+		t.Errorf("status = %d, want 403 Forbidden (NACL blocked)", resp.StatusCode)
+	}
+}
+
+func TestCCNP_RateLimiting(t *testing.T) {
+	logger := slog.New(slog.NewTextHandler(io.Discard, nil))
+	card := a2a.NewAgentCard("SecureAgent", "", "", "1.0", nil)
+	server := a2a.NewServer(card, logger)
+
+	// Rate limit: 2 requests/sec, capacity 2
+	server.SetRateLimit(2.0, 2)
+
+	ts := httptest.NewServer(server.Handler())
+	defer ts.Close()
+
+	body := `{"jsonrpc":"2.0","method":"tasks/get","params":{"id":"x"},"id":1}`
+
+	// Send 3 requests immediately
+	for i := 0; i < 3; i++ {
+		resp, err := http.Post(ts.URL, "application/json", strings.NewReader(body))
+		if err != nil {
+			t.Fatalf("POST failed: %v", err)
+		}
+		resp.Body.Close()
+
+		if i == 2 {
+			if resp.StatusCode != http.StatusTooManyRequests {
+				t.Errorf("status = %d, want 429 Too Many Requests on 3rd attempt", resp.StatusCode)
+			}
+		} else {
+			if resp.StatusCode == http.StatusTooManyRequests {
+				t.Errorf("status = %d, unexpected 429 on attempt %d", resp.StatusCode, i)
+			}
+		}
+	}
+}
+
+func TestCCNP_HMAC_Authentication(t *testing.T) {
+	logger := slog.New(slog.NewTextHandler(io.Discard, nil))
+	card := a2a.NewAgentCard("SecureAgent", "", "", "1.0", nil)
+	server := a2a.NewServer(card, logger)
+
+	secret := []byte("top-secret-key-12345")
+	server.SetHMACSecret(secret)
+
+	ts := httptest.NewServer(server.Handler())
+	defer ts.Close()
+
+	client := a2a.NewClient(logger)
+
+	// 1. Missing signature -> 401
+	body := `{"jsonrpc":"2.0","method":"tasks/get","params":{"id":"x"},"id":1}`
+	resp, err := http.Post(ts.URL, "application/json", strings.NewReader(body))
+	if err != nil {
+		t.Fatalf("POST failed: %v", err)
+	}
+	resp.Body.Close()
+	if resp.StatusCode != http.StatusUnauthorized {
+		t.Errorf("status = %d, want 401 Unauthorized for missing signature", resp.StatusCode)
+	}
+
+	// 2. Valid secret
+	client.SetHMACSecret(secret)
+	_, err = client.GetTask(ts.URL, "task-x")
+	if err != nil && !strings.Contains(err.Error(), "404") && !strings.Contains(err.Error(), "not found") {
+		t.Errorf("valid HMAC signature failed: %v", err)
+	}
+
+	// 3. Wrong secret
+	client.SetHMACSecret([]byte("wrong-secret"))
+	_, err = client.GetTask(ts.URL, "task-x")
+	if err == nil {
+		t.Error("expected error for wrong HMAC secret, got none")
 	}
 }
