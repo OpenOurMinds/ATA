@@ -30,7 +30,9 @@ var genders = []string{"Male", "Female"}
 
 // Generator produces synthetic Digital Soul populations.
 type Generator struct {
-	rng *rand.Rand
+	rng         *rand.Rand
+	loadedSouls []Soul
+	useDataset  bool
 }
 
 // NewGenerator creates a soul generator with the given random seed.
@@ -38,8 +40,23 @@ func NewGenerator(seed int64) *Generator {
 	return &Generator{rng: rand.New(rand.NewSource(seed))}
 }
 
+// LoadDemographics loads and registers the demographics source CSV dataset.
+func (g *Generator) LoadDemographics(path string) error {
+	souls, err := LoadDemographics(path)
+	if err != nil {
+		return err
+	}
+	g.loadedSouls = souls
+	g.useDataset = len(souls) > 0
+	return nil
+}
+
 // Generate creates a single Digital Soul.
 func (g *Generator) Generate() Soul {
+	if g.useDataset && len(g.loadedSouls) > 0 {
+		return g.loadedSouls[g.rng.Intn(len(g.loadedSouls))]
+	}
+
 	age := 16 + g.rng.Intn(70) // 16-85
 	gender := genders[g.rng.Intn(len(genders))]
 	archetype := AllArchetypes[g.rng.Intn(len(AllArchetypes))]
