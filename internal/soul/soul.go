@@ -5,9 +5,12 @@ package soul
 
 import (
 	"crypto/sha256"
+	"encoding/csv"
 	"encoding/hex"
 	"fmt"
 	"math/rand"
+	"os"
+	"strconv"
 	"time"
 )
 
@@ -141,4 +144,115 @@ func generateBirthDate(rng *rand.Rand, age int) string {
 	month := rng.Intn(12) + 1
 	day := rng.Intn(28) + 1
 	return fmt.Sprintf("%04d-%02d-%02d", year, month, day)
+}
+
+// LoadDemographics loads synthetic citizen profiles from a CSV dataset.
+func LoadDemographics(path string) ([]Soul, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	records, err := reader.ReadAll()
+	if err != nil {
+		return nil, err
+	}
+
+	if len(records) <= 1 {
+		return nil, fmt.Errorf("empty CSV or only headers present")
+	}
+
+	var souls []Soul
+	// Skip header (row 0)
+	for i := 1; i < len(records); i++ {
+		row := records[i]
+		if len(row) < 15 {
+			continue
+		}
+
+		age, _ := strconv.Atoi(row[1])
+		socialCredit, _ := strconv.ParseFloat(row[4], 64)
+		trust, _ := strconv.ParseFloat(row[5], 64)
+		fear, _ := strconv.ParseFloat(row[6], 64)
+		altruism, _ := strconv.ParseFloat(row[7], 64)
+		ambition, _ := strconv.ParseFloat(row[8], 64)
+		curiosity, _ := strconv.ParseFloat(row[9], 64)
+		routine, _ := strconv.ParseFloat(row[10], 64)
+		riskAverse, _ := strconv.ParseFloat(row[11], 64)
+		techSavvy, _ := strconv.ParseFloat(row[12], 64)
+		socialEngagement, _ := strconv.ParseFloat(row[13], 64)
+		healthConsciousness, _ := strconv.ParseFloat(row[14], 64)
+
+		archetype := Archetype(row[3])
+
+		// Generate narrative memory anchored to archetype
+		eventType := "discovery"
+		narrative := "Witnessed an unexpected scientific phenomenon"
+		switch archetype {
+		case ArchDisillusionedArtist:
+			eventType = "loss"
+			narrative = "Experienced a sudden financial setback"
+		case ArchCommunityBuilder:
+			eventType = "friendship"
+			narrative = "Met a mentor who reshaped their worldview"
+		case ArchAmbitiousEntrepreneur:
+			eventType = "triumph"
+			narrative = "Built something from scratch that changed the community"
+		case ArchCautiousObserver:
+			eventType = "challenge"
+			narrative = "Overcame a physical limitation through persistence"
+		case ArchIdealisticActivist:
+			eventType = "awakening"
+			narrative = "Realized the system they trusted was fundamentally flawed"
+		}
+
+		// Instantiate random generator just for seed hashing
+		rng := rand.New(rand.NewSource(int64(i + age)))
+		birthDate := generateBirthDate(rng, age)
+
+		soul := Soul{
+			CitizenID:       row[0],
+			DigitalSoulHash: ComputeHash(birthDate, narrative, fmt.Sprintf("%d", i)),
+			BirthDate:       birthDate,
+			Age:             age,
+			Gender:          row[2],
+			LifeStage:       LifeStageFromAge(age),
+			Archetype:       archetype,
+			Memory: MemoryAnchor{
+				EventType:       eventType,
+				AgeAtEvent:      5 + rng.Intn(max(1, age-6)),
+				EmotionalWeight: randFloat(rng, 0.3, 1.0),
+				Narrative:       narrative,
+				Emotions:        []string{"determination", "nostalgia"},
+			},
+			Emotions: EmotionalResonance{
+				Trust:     trust,
+				Fear:      fear,
+				Altruism:  altruism,
+				Ambition:  ambition,
+				Curiosity: curiosity,
+			},
+			SocialCreditScore: socialCredit,
+			InsuranceRiskTier: riskTier(socialCredit),
+			Behavior: BehavioralPatterns{
+				Routine:             routine,
+				RiskAverse:          riskAverse,
+				TechSavvy:           techSavvy,
+				SocialEngagement:    socialEngagement,
+				HealthConsciousness: healthConsciousness,
+			},
+		}
+		souls = append(souls, soul)
+	}
+
+	return souls, nil
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
