@@ -1,46 +1,46 @@
 {
-  "timestamp": "2026-06-22T01:18:32Z",
+  "timestamp": "2026-07-22T01:08:36Z",
   "goVersion": "go1.26.4",
   "scalability": [
     {
       "populationSize": 50,
-      "generationTimeMs": 77.326,
-      "simulationTimeMs": 5.099,
-      "closedLoopTimeMs": 82.442,
-      "allocatedMb": 46.266937255859375,
+      "generationTimeMs": 88.926,
+      "simulationTimeMs": 13.602,
+      "closedLoopTimeMs": 102.542,
+      "allocatedMb": 46.26885986328125,
       "gcRuns": 13
     },
     {
       "populationSize": 100,
-      "generationTimeMs": 65.836,
-      "simulationTimeMs": 5.318,
-      "closedLoopTimeMs": 71.168,
-      "allocatedMb": 47.49632263183594,
+      "generationTimeMs": 63.273,
+      "simulationTimeMs": 5.021,
+      "closedLoopTimeMs": 68.308,
+      "allocatedMb": 47.495086669921875,
       "gcRuns": 14
     },
     {
       "populationSize": 500,
-      "generationTimeMs": 65.262,
-      "simulationTimeMs": 9.171,
-      "closedLoopTimeMs": 74.448,
-      "allocatedMb": 57.51091766357422,
-      "gcRuns": 15
+      "generationTimeMs": 63.494,
+      "simulationTimeMs": 9.129,
+      "closedLoopTimeMs": 72.639,
+      "allocatedMb": 57.512901306152344,
+      "gcRuns": 16
     },
     {
       "populationSize": 1000,
-      "generationTimeMs": 65.029,
-      "simulationTimeMs": 14.592,
-      "closedLoopTimeMs": 79.636,
-      "allocatedMb": 69.85276794433594,
+      "generationTimeMs": 63.421,
+      "simulationTimeMs": 14.529,
+      "closedLoopTimeMs": 77.964,
+      "allocatedMb": 69.85392761230469,
       "gcRuns": 18
     },
     {
       "populationSize": 5000,
-      "generationTimeMs": 64.672,
-      "simulationTimeMs": 56.966,
-      "closedLoopTimeMs": 121.653,
-      "allocatedMb": 169.56256866455078,
-      "gcRuns": 27
+      "generationTimeMs": 63.695,
+      "simulationTimeMs": 55.66,
+      "closedLoopTimeMs": 119.374,
+      "allocatedMb": 169.56290435791016,
+      "gcRuns": 26
     }
   ],
   "randomSimStats": {
