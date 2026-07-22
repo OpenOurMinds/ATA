@@ -1,6 +1,6 @@
 .PHONY: all build test clean install lint cross-compile
 
-BINARIES := ata-orchestrator ata-soul-agent ata-city-agent ata-decision-agent
+BINARIES := ata-orchestrator ata-soul-agent ata-city-agent ata-decision-agent generate-datafile
 BUILD_DIR := build
 VERSION := $(shell git describe --tags --always --dirty 2>/dev/null || echo "dev")
 LDFLAGS := -ldflags "-s -w -X main.version=$(VERSION)"
