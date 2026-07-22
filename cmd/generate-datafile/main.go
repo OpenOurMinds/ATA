@@ -15,6 +15,8 @@ import (
 	"github.com/OpenOurMinds/ATA/internal/soul"
 )
 
+var version = "dev"
+
 type SimulationStepRecord struct {
 	Timestep          string    `json:"timestep"`
 	CycleID           string    `json:"cycleId"`
